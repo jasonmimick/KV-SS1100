@@ -14,12 +14,12 @@ namespace PluginExample.Properties
         public void OnLoad()
         {
             // Register configuration page for the web
-            WebConfigServer.RegisterHttpHandler("My Plugin Config", "/MyPlugin", new MyConfigHttpHandler());
+            WebConfigServer.RegisterHttpHandler("IHE Plugin Config", "/IHEPlugin", new MyConfigHttpHandler());
 
             // Register application button
-            AppButtonManager.AddAppButton(new MyStyledButton("My Plugin",
-                                                             "My Plugin",
-                                                             "Description for My Plugin"));
+            AppButtonManager.AddAppButton(new MyStyledButton("IHE Plugin",
+                                                             "IHE Plugin",
+                                                             "Plugin to enable scanning documents directly into a Health Information Exchange"));
         }
 
         public void OnUnload()

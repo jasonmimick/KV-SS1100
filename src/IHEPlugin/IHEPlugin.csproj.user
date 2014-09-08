@@ -4,6 +4,6 @@
     <StartAction>Program</StartAction>
     <StartProgram>Z:\jmimick\work\KV-SS1100\src\SS1100_SW\SoftwareBin\SS1100_SW.exe</StartProgram>
     <StartArguments>/loadplugin IHEPlugin.dll</StartArguments>
-    <StartWorkingDirectory>Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\Debug\</StartWorkingDirectory>
+    <StartWorkingDirectory>Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\</StartWorkingDirectory>
   </PropertyGroup>
 </Project>

@@ -3,14 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" d:DesignHeight="55" d:DesignWidth="202">
+             mc:Ignorable="d" d:DesignHeight="55" d:DesignWidth="402">
     <UserControl.Resources>
         <ResourceDictionary Source="MyStyle.xaml"/>
     </UserControl.Resources>
-    <Button Name="btnAppBtn" Click="btnAppBtn_Click">
+    <Button Name="btnAppBtn" Click="btnAppBtn_Click" Background="#FFEAEB8B" BorderBrush="#FF140707">
         <StackPanel Orientation="Horizontal">
-            <Image Source="/PluginSample;component/Images/search4files.ico" Height="32" Width="32" Margin="0,0,10,0" />
-            <TextBlock>My ECM</TextBlock>
+            <!--
+            <Image Source="/IHEPlugin;component/Images/search4files.ico" Height="32" Width="32" Margin="0,0,10,0" />
+            -->
+            <TextBlock FontFamily="Arial" FontSize="28" FontWeight="Medium" Background="{x:Null}" Foreground="#FF5C5252" ForceCursor="False" FontStretch="Expanded">HealthShare</TextBlock>
         </StackPanel>
     </Button>
 </UserControl>

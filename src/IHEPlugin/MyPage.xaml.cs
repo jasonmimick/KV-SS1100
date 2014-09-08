@@ -27,6 +27,16 @@ namespace PluginExample
             InitializeComponent();
         }
 
+        public static object PatientContext = "FOOBAR";
+
+        private void btnSelectPatient_Click(object sender, RoutedEventArgs e)
+        {
+            UIManager.ShowMessageDialog(MyPage.PatientContext.ToString(), MessageBoxImage.Asterisk, null);
+            var patientSearchPage = new IHEPlugin.PatientSearchPage();
+            //UIManager.ShowDialog(patientSearchPage);
+            UIManager.NavigationService.Navigate(patientSearchPage);
+    
+        }
         private void btnDialog_Click(object sender, RoutedEventArgs e)
         {
             // Show a dialog box
@@ -64,9 +74,8 @@ namespace PluginExample
 
         private void StartScanning()
         {
-            Page scanningPage = StandardPages.CreateScanningPage(new MyScanHandler(chkDropOut.IsChecked.Value,
-                                                                                   chkSmoothBg.IsChecked.Value,
-                                                                                   chkDynThresh.IsChecked.Value));
+            var scanHandler = new MyScanHandler(false, false, false);
+            Page scanningPage = StandardPages.CreateScanningPage(scanHandler);
             UIManager.NavigationService.Navigate(scanningPage);
         }
 

@@ -1,14 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Generated: 9/8/2014 10:46:30 AM-->
+<!--Generated: 9/8/2014 3:04:48 PM-->
 <settings
   appVersion="1.1.1392.3">
   <setting
     name="Authentication.Builtin.AdminPassword"
-    value="wrBPUfKn3ePhleUiQ1dLIdxv2vm3N7/78hjLg8T7j0+SPGkHmZkDZwEAAADQjJ3fARXREYx6AMBPwpfrAQAAABVLZIyUjHhNogQRjyTflcUEAAAAAgAAAAAAEGYAAAABAAAgAAAAgXzmWe6mtAoFyTkQj/zdxxNkusRWiOFP5VRijadvJO8AAAAADoAAAAACAAAgAAAAZwCmFbwPa+rRvjHufU8FtVvm3VA+0zIzR8LaAwIz/9MQAAAALgBe9vweVvSGBrYT6oYTNEAAAADVsblc4DxCc7JR27yoWOGGpHG3S6iw1Q52b8AhCQ6MGEldU35aX6sQMEBR4WlMc4ZosRakzoKQ3sF+lt9QGF9u" />
+    value="s1Yc79RSRV1KG5XgVf9WwS2ZLV7164P+OMVLjh6K+WczEa1LeMsDlwEAAADQjJ3fARXREYx6AMBPwpfrAQAAAMEv4JYPIdBCmE3a+yu3NDUEAAAAAgAAAAAAA2YAAMAAAAAQAAAAN6JlTDjSvDRB1yiwcf0leAAAAAAEgAAAoAAAABAAAAAPpZZdHekKMMSa+dvgheaOEAAAANNDYz4/vpS0oMbn36KgRtsUAAAAzuksgFMkn5EOVrJ8J7i0+njXF90=" />
   <setting
     name="AppButtons.DisabledButtons"
-    value="Scan Test,Scan to Fax" />
+    value="Scan Test,Scan to Fax,Scan to Folder,Scan to Email" />
   <setting
     name="Panasonic.Standard_Handlers.Account.Builtin.UserAccounts"
     value="" />
+  <setting
+    name="Misc.InitialConfigCompleted"
+    value="True" />
+  <setting
+    name="InterSystems.IHEPlugin.hie_endpoint"
+    value="ewqqwe" />
+  <setting
+    name="InterSystems.IHEPlugin.http_username"
+    value="_system" />
+  <setting
+    name="InterSystems.IHEPlugin.http_password"
+    value="SYS" />
+  <setting
+    name="InterSystems.IHEPlugin.ws_security_username"
+    value="HS_Services" />
+  <setting
+    name="InterSystems.IHEPlugin.ws_security_password"
+    value="HS_Services" />
+  <setting
+    name="InterSystems.IHEPlugin.hie_pdq_endpoint"
+    value="http://exchange.healthshare.us:57772/csp/healthshare/hsregistry/HS.IHE.PDQv3.Supplier.Services.CLS" />
+  <setting
+    name="InterSystems.IHEPlugin.hie_xdsb_endpoint"
+    value="http://exchange.healthshare.us:57772/csp/healthshare/hsrepository/HS.IHE.XDSb.Repository.Services.CLS" />
 </settings>

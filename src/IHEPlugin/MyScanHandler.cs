@@ -6,6 +6,8 @@ using System.IO;
 using System.Diagnostics;
 using Panasonic.KV_SS1100.API.Scanner;
 using Panasonic.KV_SS1100.API.Scanner.Config;
+using InterSystems.IHE.Client;
+using Panasonic.KV_SS1100.API.UI;
 
 namespace PluginExample
 {
@@ -28,6 +30,8 @@ namespace PluginExample
             args.SessionScanConfig.DropOut = dropOutRed ? DropOut.Red : DropOut.None;
             args.SessionScanConfig.SmoothBackground = smoothBg;
             args.SessionScanConfig.DynamicThreshold = dynThresh;
+            this.pageArray = new List<byte[]>();
+
         }
 
         public void OnPageScan(IScanner scanner, PageScanEventArgs args)
@@ -51,18 +55,56 @@ namespace PluginExample
 
             string outputFile = Path.GetTempFileName() + args.FileExtension;
 
-            // Open the first document that was scanned (or the result PDF file)
             using (Stream input = args.OpenStream())
-            using (Stream output = File.OpenWrite(outputFile))
+            using (MemoryStream memoryStream = new MemoryStream())
             {
-                input.CopyTo(output);
+                input.CopyTo(memoryStream);
+                //request.data = memoryStream.ToArray();
+                this.pageArray.Add(memoryStream.ToArray());
             }
-
-            Process.Start(outputFile);
+            // Open the first document that was scanned (or the result PDF file)
+            // ?? Maybe we let them SEE the document before sending off??
+            //Process.Start(outputFile);
         }
+
+        private List<byte[]> pageArray;
 
         public void OnScanFinish(IScanner scanner, ScanFinishEventArgs args)
         {
+            // Let's store the document in memory - create the XDSb request
+            // have user do one confirmation before sending....
+            var request = new XDSbRequest();
+            var client = new XDSbClient();
+            client.ExchangeEndpoint = IHEPlugin.IHEClientUtils.XDSbEndpoint();
+            IHEPlugin.IHEClientUtils.ConfigureRequest(request);
+            client.Verbose = true;
+            // TODO - much more UI to set these options!
+            request.options = XDSbRequest.getDefaultOptions();
+            var pdq = (PDQResponse)MyPage.PatientContext;
+            var pdq_id = pdq.Identifiers.First();       // TODO - need to have ui to pick this!
+            request.patientId = pdq_id.ID;
+            request.idSource = pdq_id.Source;
+            request.mimeType = MimeType.PDF;    // TODO!!
+            //   using (Stream input = args.OpenStream())
+            int last = 0;
+            int fullSize = 0;
+            foreach (var pageArray in this.pageArray)
+            {
+                fullSize += pageArray.Length;
+            }
+            request.data = new byte[fullSize];
+            foreach (var pageArray in this.pageArray)
+            {
+                   // memoryStream.open
+                    //memoryStream.Position = 0;
+                    Buffer.BlockCopy(pageArray, 0, request.data, last, (int)pageArray.Length);
+                    last = request.data.Length; // ?? maybe off one here??
+            }
+            UIManager.ShowMessageDialog(request.ToString(), System.Windows.MessageBoxImage.Asterisk, null);
+
+            var result = client.ProvideAndRegisterDocument(request);
+            UIManager.ShowMessageDialog(result.ToString(), System.Windows.MessageBoxImage.Exclamation, null);
+       
         }
 
         public void OnScanError(IScanner scanner, ScanErrorEventArgs args)

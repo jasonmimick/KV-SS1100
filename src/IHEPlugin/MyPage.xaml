@@ -3,22 +3,61 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:foo="clr-namespace:PluginExample"
       mc:Ignorable="d" 
       d:DesignWidth="465"
       d:DesignHeight="272"
-	  Title="MyPage">
+	  Title="MyPage" Name="MyMainPage">
     <Page.Resources>
         <ResourceDictionary Source="/SS1100_SW;component/UI/Style.xaml"/>
     </Page.Resources>
     <Grid>
-        <Button Content="Back to menu" Height="40" HorizontalAlignment="Left" Margin="12,0,0,20" Name="btnBack" VerticalAlignment="Bottom" Width="191" IsCancel="True" Click="btnBack_Click" />
-        <Button Content="Progress Bar Example" Height="40" HorizontalAlignment="Left" Margin="12,166,0,0" Name="btnProgress" VerticalAlignment="Top" Width="191" Click="btnProgress_Click" />
-        <Button Content="Dialog Example" Height="40" HorizontalAlignment="Left" Margin="12,120,0,0" Name="btnDialog" VerticalAlignment="Top" Width="191" IsDefault="False" Click="btnDialog_Click" />
-        <Button Content="Scanning Options" Height="40" HorizontalAlignment="Left" Margin="209,120,0,0" Name="btnScanOpts" VerticalAlignment="Top" Width="162" Click="btnScanOpts_Click" />
-        <Button Content="Start Scanning" Height="40" HorizontalAlignment="Left" Margin="209,166,0,0" Name="btnStartScan" VerticalAlignment="Top" Width="162" Click="btnStartScan_Click" />
-        <Label Content="Custom Scan Options:" Height="34" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" Width="441" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+        </Grid.RowDefinitions>
+    
+        <Label Content="Current Patient:" Height="34" HorizontalAlignment="Left"
+               Grid.Column="0" Grid.Row="0"
+               Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" Width="441" />
+        <!--
+        Content="{Binding Source={x:Static sys:Environment.MachineName}}"
+         Content="{Binding ElementName=MyMainPage, Path=MyPage.PatientContext}"
+        -->
+        <TextBlock Name="patientContextLabel" Text="{Binding Source={x:Static foo:MyPage.PatientContext}, Mode=OneTime}"
+               Margin="10" Grid.Column="1" Grid.Row="0" TextWrapping="Wrap"
+               HorizontalAlignment="Left"/>
+    
+        <Button Content="Select Patient" Height="40" Grid.Column="0" Grid.Row="1"
+                HorizontalAlignment="Left" 
+                Name="btnSelectPatient" VerticalAlignment="Top" Width="191" 
+                IsDefault="False" Click="btnSelectPatient_Click" />
+
+        <Button Content="Start Scanning" Height="40" HorizontalAlignment="Left" 
+                Name="btnStartScan" VerticalAlignment="Top" 
+                Grid.Column="0" Grid.Row="2"
+                Width="162" Click="btnStartScan_Click" />
+
+        <Button Content="Send to Exchange" Height="40" HorizontalAlignment="Left" 
+                Name="btnSendToHIE" VerticalAlignment="Top" 
+                Grid.Column="1" Grid.Row="2"
+                Width="162" Click="btnStartScan_Click" />
+
+        <Button Content="Back to menu" Height="40" HorizontalAlignment="Left" 
+                Name="btnBack" VerticalAlignment="Bottom" Width="191" 
+                Grid.Column="0" Grid.Row="3"
+                IsCancel="True" Click="btnBack_Click" />
+      
+        <!--
         <CheckBox Content="Drop out red color" Height="24" HorizontalAlignment="Left" Margin="12,52,0,0" Name="chkDropOut" VerticalAlignment="Top" Width="191" />
         <CheckBox Content="Smooth Background" Height="24" HorizontalAlignment="Left" Margin="12,82,0,0" Name="chkSmoothBg" VerticalAlignment="Top" Width="191" />
         <CheckBox Content="Dynamic Threshold" Height="24" HorizontalAlignment="Left" Margin="262,52,0,0" Name="chkDynThresh" VerticalAlignment="Top" Width="191" />
-    </Grid>
+        -->
+        </Grid>
 </Page>

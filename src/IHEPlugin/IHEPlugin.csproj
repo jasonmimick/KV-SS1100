@@ -104,6 +104,9 @@
     <Reference Include="HttpServer">
       <HintPath>..\SS1100_SW\SoftwareBin\HttpServer.dll</HintPath>
     </Reference>
+    <Reference Include="InterSystems.IHE.Client">
+      <HintPath>..\lib\InterSystems.IHE.Client.dll</HintPath>
+    </Reference>
     <Reference Include="SS1100_SW, Version=1.1.1105.4, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <ExecutableExtension>.exe</ExecutableExtension>
@@ -121,6 +124,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IHEClientUtils.cs" />
     <Compile Include="MyScanHandler.cs" />
     <Compile Include="MyStyledControl.xaml.cs">
       <DependentUpon>MyStyledControl.xaml</DependentUpon>
@@ -130,6 +134,12 @@
     </Compile>
     <Compile Include="MyHttpHandler.cs" />
     <Compile Include="MyWebConfigPage.cs" />
+    <Compile Include="PatientSearchPage.xaml.cs">
+      <DependentUpon>PatientSearchPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PatientSearchResultsPage.xaml.cs">
+      <DependentUpon>PatientSearchResultsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -166,6 +176,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MyStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientSearchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientSearchResultsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
