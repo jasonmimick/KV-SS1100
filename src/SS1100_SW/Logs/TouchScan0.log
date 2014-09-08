@@ -1,0 +1,112 @@
+[07/31/14 18:59:06]===============================================================
+[07/31/14 18:59:12][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[07/31/14 18:59:15][LOADING] Settings file missing. Admin password will be created.
+[07/31/14 18:59:16][LOADING] Loading LoadConfig took 00:00:01.5602466
+[07/31/14 18:59:16][LOADING] Loading LoadRamDisk took 00:00:00.1070057
+[07/31/14 18:59:19]System.TypeInitializationException: The type initializer for 'TouchScan.NetworkSetup.Wireless.WirelessUtil' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'wlanapi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at NativeWifi.Wlan.WlanOpenHandle(UInt32 clientVersion, IntPtr pReserved, UInt32& negotiatedVersion, IntPtr& clientHandle)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+   --- End of inner exception stack trace ---
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil.TryRecoverLostProfile()
+   at TouchScan.AppLifecycle.LoadNetworks()
+   at TouchScan.AppLifecycle.LoadNext(LoadState state)
+   at TouchScan.AppLifecycle.DoLoading()
+   at TouchScan.UI.MainWindow.LoadingPage_LoadingTask()
+   at TouchScan.UI.LoadingPage.worker_DoWork(Object sender, DoWorkEventArgs e)
+[07/31/14 18:59:19][UI] Show Dialog: Initialization Problem
+[07/31/14 18:59:27][FACTORYRESET] Executing factory reset ..
+[07/31/14 18:59:28][FACTORYRESET] Failed to reset DNS suffixes
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at TouchScan.SystemAccess.FactoryReset.ResetNetworkSettingsGlobal()
+[07/31/14 18:59:28][FACTORYRESET] Failed to reset WLAN profiles
+System.TypeInitializationException: The type initializer for 'TouchScan.NetworkSetup.Wireless.WirelessUtil' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'wlanapi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at NativeWifi.Wlan.WlanOpenHandle(UInt32 clientVersion, IntPtr pReserved, UInt32& negotiatedVersion, IntPtr& clientHandle)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+   --- End of inner exception stack trace ---
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil.set_WirelessProfile(WirelessProfile value)
+   at TouchScan.SystemAccess.FactoryReset.ResetWirelessProfiles()
+[07/31/14 18:59:28][FACTORYRESET] Factory reset complete.
+[07/31/14 18:59:28][UI] Hide Dialog: Initialization Problem
+[07/31/14 18:59:34][SHUTDOWN] Shutdown complete.
+[07/31/14 19:17:28]===============================================================
+[07/31/14 19:17:29][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[07/31/14 19:17:31][LOADING] Settings file missing. Admin password will be created.
+[07/31/14 19:17:32][LOADING] Loading LoadConfig took 00:00:00.9268137
+[07/31/14 19:17:32][LOADING] Loading LoadRamDisk took 00:00:00.0402098
+[07/31/14 19:17:33]System.TypeInitializationException: The type initializer for 'TouchScan.NetworkSetup.Wireless.WirelessUtil' threw an exception. ---> System.DllNotFoundException: Unable to load DLL 'wlanapi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at NativeWifi.Wlan.WlanOpenHandle(UInt32 clientVersion, IntPtr pReserved, UInt32& negotiatedVersion, IntPtr& clientHandle)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+   --- End of inner exception stack trace ---
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil.TryRecoverLostProfile()
+   at TouchScan.AppLifecycle.LoadNetworks()
+   at TouchScan.AppLifecycle.LoadNext(LoadState state)
+   at TouchScan.AppLifecycle.DoLoading()
+   at TouchScan.UI.MainWindow.LoadingPage_LoadingTask()
+   at TouchScan.UI.LoadingPage.worker_DoWork(Object sender, DoWorkEventArgs e)
+[07/31/14 19:17:33][UI] Show Dialog: Initialization Problem
+[07/31/14 19:17:45][SHUTDOWN] Shutdown complete.
+[09/05/14 11:58:59]===============================================================
+[09/05/14 11:58:59][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/05/14 11:58:59][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\Debug\IHEPlugin.dll
+[09/05/14 11:59:00][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/05/14 11:59:03][LOADING] Loading LoadConfig took 00:00:02.6289273
+[09/05/14 11:59:03][LOADING] Loading LoadRamDisk took 00:00:00.0384544
+[09/05/14 11:59:05][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/05/14 11:59:05]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/05/14 11:59:05][LOADING] Loading LoadNetworks took 00:00:01.3700965
+[09/05/14 11:59:05][LOADING] Loading LoadWebServer took 00:00:00.0557620
+[09/05/14 11:59:05][LOADING] Loading LoadHandlers took 00:00:00.3784151
+[09/05/14 11:59:05][LOADING] Loading LoadScanner took 00:00:00.0005221
+[09/05/14 11:59:05][PLUGINS] Loading Plugin: IHEPlugin
+[09/05/14 11:59:05][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/05/14 11:59:05][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/05/14 11:59:05][LOADING] Loading LoadPlugins took 00:00:00.0314996
+[09/05/14 11:59:05][LOADING] Loading LoadUIServices took 00:00:00.0007250
+[09/05/14 11:59:10][SHUTDOWN] Shutdown complete.
+[09/08/14 10:46:20]===============================================================
+[09/08/14 10:46:20][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/08/14 10:46:20][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\Debug\IHEPlugin.dll
+[09/08/14 10:46:22][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/08/14 10:46:30][LOADING] Loading LoadConfig took 00:00:07.2664197
+[09/08/14 10:46:30][LOADING] Loading LoadRamDisk took 00:00:00.1224431
+[09/08/14 10:46:32][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/08/14 10:46:32]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/08/14 10:46:32][LOADING] Loading LoadNetworks took 00:00:02.0536792
+[09/08/14 10:46:33][LOADING] Loading LoadWebServer took 00:00:00.0822323
+[09/08/14 10:46:33][LOADING] Loading LoadHandlers took 00:00:00.4733183
+[09/08/14 10:46:33][LOADING] Loading LoadScanner took 00:00:00.0005852
+[09/08/14 10:46:33][PLUGINS] Loading Plugin: IHEPlugin
+[09/08/14 10:46:33][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/08/14 10:46:33][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/08/14 10:46:33][LOADING] Loading LoadPlugins took 00:00:00.0300640
+[09/08/14 10:46:33][LOADING] Loading LoadUIServices took 00:00:00.0007381
+[09/08/14 10:46:36][SHUTDOWN] Shutdown complete.

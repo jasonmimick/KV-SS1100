@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated: 7/31/2014 6:59:16 PM-->
+<settings
+  appVersion="1.1.1392.3">
+  <setting
+    name="Authentication.Builtin.AdminPassword"
+    value="mJ7MIrgovIIc2wUhPDr4bJl3WecX5zKkpl0uCTAnhxT+SOIRi5g6AwEAAADQjJ3fARXREYx6AMBPwpfrAQAAABVLZIyUjHhNogQRjyTflcUEAAAAAgAAAAAAEGYAAAABAAAgAAAAgC7vVvV8fHWKjTqOGYiFsOgjTIQqcmGbTIh6Zt8tzqcAAAAADoAAAAACAAAgAAAAnAIM3wzezH2lRLS+c/qqyCgH3dlxNxr++B1nVNS/jpIQAAAAPml2Sn+QiR5Jw7vkteUo5EAAAACpWNKEa8yfvbE5P61qChoIS41nTckJt4SM5R5A/U6L1/JvoRBWjgh3zoFDyqgmZt5x6zhFmqWat3cZ+LJbK3BO" />
+  <setting
+    name="AppButtons.DisabledButtons"
+    value="Scan Test,Scan to Fax" />
+</settings>

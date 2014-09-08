@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated: 9/8/2014 10:46:33 AM-->
+<settings
+  appVersion="1.1.1392.3">
+  <setting
+    name="Authentication.Builtin.AdminPassword"
+    value="wrBPUfKn3ePhleUiQ1dLIdxv2vm3N7/78hjLg8T7j0+SPGkHmZkDZwEAAADQjJ3fARXREYx6AMBPwpfrAQAAABVLZIyUjHhNogQRjyTflcUEAAAAAgAAAAAAEGYAAAABAAAgAAAAgXzmWe6mtAoFyTkQj/zdxxNkusRWiOFP5VRijadvJO8AAAAADoAAAAACAAAgAAAAZwCmFbwPa+rRvjHufU8FtVvm3VA+0zIzR8LaAwIz/9MQAAAALgBe9vweVvSGBrYT6oYTNEAAAADVsblc4DxCc7JR27yoWOGGpHG3S6iw1Q52b8AhCQ6MGEldU35aX6sQMEBR4WlMc4ZosRakzoKQ3sF+lt9QGF9u" />
+  <setting
+    name="AppButtons.DisabledButtons"
+    value="Scan Test,Scan to Fax" />
+  <setting
+    name="Panasonic.Standard_Handlers.Account.Builtin.UserAccounts"
+    value="" />
+</settings>

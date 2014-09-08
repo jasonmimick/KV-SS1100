@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="PluginExample.MyStyledControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="55" d:DesignWidth="202">
+    <UserControl.Resources>
+        <ResourceDictionary Source="MyStyle.xaml"/>
+    </UserControl.Resources>
+    <Button Name="btnAppBtn" Click="btnAppBtn_Click">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="/PluginSample;component/Images/search4files.ico" Height="32" Width="32" Margin="0,0,10,0" />
+            <TextBlock>My ECM</TextBlock>
+        </StackPanel>
+    </Button>
+</UserControl>
