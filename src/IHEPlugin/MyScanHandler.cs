@@ -30,8 +30,9 @@ namespace PluginExample
             args.SessionScanConfig.DropOut = dropOutRed ? DropOut.Red : DropOut.None;
             args.SessionScanConfig.SmoothBackground = smoothBg;
             args.SessionScanConfig.DynamicThreshold = dynThresh;
-            this.pageArray = new List<byte[]>();
+            args.SessionScanConfig.ImageFormat = ImageFormat.Pdf;
 
+           
         }
 
         public void OnPageScan(IScanner scanner, PageScanEventArgs args)
@@ -51,10 +52,11 @@ namespace PluginExample
                 return; 
             }
 
-            isFirstFile = true;
+            isFirstFile = false;
 
-            string outputFile = Path.GetTempFileName() + args.FileExtension;
-
+            //string outputFile = Path.GetTempFileName() + args.FileExtension;
+            this.firstPageData = args.FileDataBytes;
+            /*
             using (Stream input = args.OpenStream())
             using (MemoryStream memoryStream = new MemoryStream())
             {
@@ -62,12 +64,16 @@ namespace PluginExample
                 //request.data = memoryStream.ToArray();
                 this.pageArray.Add(memoryStream.ToArray());
             }
+             */
+
             // Open the first document that was scanned (or the result PDF file)
             // ?? Maybe we let them SEE the document before sending off??
             //Process.Start(outputFile);
         }
 
-        private List<byte[]> pageArray;
+        //private List<byte[]> pageArray;
+
+        private byte[] firstPageData;
 
         public void OnScanFinish(IScanner scanner, ScanFinishEventArgs args)
         {
@@ -81,11 +87,15 @@ namespace PluginExample
             // TODO - much more UI to set these options!
             request.options = XDSbRequest.getDefaultOptions();
             var pdq = (PDQResponse)MyPage.PatientContext;
-            var pdq_id = pdq.Identifiers.First();       // TODO - need to have ui to pick this!
+            //var pdq_id = pdq.Identifiers.First();       // TODO - need to have ui to pick this!
+            var pdq_id = pdq.Identifiers.Last();
             request.patientId = pdq_id.ID;
             request.idSource = pdq_id.Source;
-            request.mimeType = MimeType.PDF;    // TODO!!
+            request.mimeType = MimeType.JPG;    // TODO!!
+            request.data = new byte[this.firstPageData.Length];
+            Buffer.BlockCopy(this.firstPageData, 0, request.data, 0, this.firstPageData.Length);
             //   using (Stream input = args.OpenStream())
+           /*
             int last = 0;
             int fullSize = 0;
             foreach (var pageArray in this.pageArray)
@@ -93,14 +103,15 @@ namespace PluginExample
                 fullSize += pageArray.Length;
             }
             request.data = new byte[fullSize];
-            foreach (var pageArray in this.pageArray)
+            foreach (var page in this.pageArray)
             {
                    // memoryStream.open
                     //memoryStream.Position = 0;
-                    Buffer.BlockCopy(pageArray, 0, request.data, last, (int)pageArray.Length);
-                    last = request.data.Length; // ?? maybe off one here??
+                  Buffer.BlockCopy(page, 0, request.data, last, (int)page.Length);
+                    last = page.Length; // ?? maybe off one here??
             }
-            UIManager.ShowMessageDialog(request.ToString(), System.Windows.MessageBoxImage.Asterisk, null);
+            * */
+            //UIManager.ShowMessageDialog(request.ToString(), System.Windows.MessageBoxImage.Asterisk, null);
 
             var result = client.ProvideAndRegisterDocument(request);
             UIManager.ShowMessageDialog(result.ToString(), System.Windows.MessageBoxImage.Exclamation, null);

@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using System.Timers;
 using Panasonic.KV_SS1100.API.UI;
 using Panasonic.KV_SS1100.API.Scanner;
+using System.Diagnostics;
 
 namespace PluginExample
 {
@@ -31,7 +32,7 @@ namespace PluginExample
 
         private void btnSelectPatient_Click(object sender, RoutedEventArgs e)
         {
-            UIManager.ShowMessageDialog(MyPage.PatientContext.ToString(), MessageBoxImage.Asterisk, null);
+            //UIManager.ShowMessageDialog(MyPage.PatientContext.ToString(), MessageBoxImage.Asterisk, null);
             var patientSearchPage = new IHEPlugin.PatientSearchPage();
             //UIManager.ShowDialog(patientSearchPage);
             UIManager.NavigationService.Navigate(patientSearchPage);
@@ -75,8 +76,15 @@ namespace PluginExample
         private void StartScanning()
         {
             var scanHandler = new MyScanHandler(false, false, false);
-            Page scanningPage = StandardPages.CreateScanningPage(scanHandler);
+            //Page scanningPage = StandardPages.CreateScanningPage(scanHandler);
+            PageFunction<ScanOptionsPageResult> scanningPage = StandardPages.CreateScanningPage(scanHandler);
+            scanningPage.Return += new ReturnEventHandler<ScanOptionsPageResult>(scanningPage_Return);
             UIManager.NavigationService.Navigate(scanningPage);
+        }
+
+        void scanningPage_Return(object sender, ReturnEventArgs<ScanOptionsPageResult> e)
+        {
+            Debug.Write(e);
         }
 
         private void btnScanOpts_Click(object sender, RoutedEventArgs e)

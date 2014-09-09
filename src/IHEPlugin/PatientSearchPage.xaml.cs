@@ -29,7 +29,7 @@ namespace IHEPlugin
         private void btnSearchExchange_Click(object sender, RoutedEventArgs e)
         {
             var msg = "txtLastName=" + this.txtLastName.Text + " txtFirstName=" + this.txtFirstName.Text;
-            UIManager.ShowMessageDialog(msg, MessageBoxImage.Information,null);
+            //UIManager.ShowMessageDialog(msg, MessageBoxImage.Information,null);
             var request = new PDQRequest();
             request.FirstName = this.txtFirstName.Text;
             request.LastName = this.txtLastName.Text;
