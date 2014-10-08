@@ -114,7 +114,14 @@ namespace PluginExample
             //UIManager.ShowMessageDialog(request.ToString(), System.Windows.MessageBoxImage.Asterisk, null);
 
             var result = client.ProvideAndRegisterDocument(request);
-            UIManager.ShowMessageDialog(result.ToString(), System.Windows.MessageBoxImage.Exclamation, null);
+            var msg = "";
+            if (result.Successful)
+            {
+                msg = "Scanned document was successfully uploaded to HealthShare";
+            } else {
+                msg = string.Join(",", result.Response.RegistryErrorList.RegistryError.Select(re => re.Value));
+            }
+            UIManager.ShowMessageDialog(msg, System.Windows.MessageBoxImage.Information, null);
        
         }
 

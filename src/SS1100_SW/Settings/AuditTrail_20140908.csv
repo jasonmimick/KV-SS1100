@@ -96,3 +96,8 @@ Timestamp,Origin,Category,User,Operation,Result,Description
 09/08/2014 03:03 PM,Local,System,<SYSTEM>,PowerOff,Success,
 09/08/2014 03:04 PM,Local,System,<SYSTEM>,PowerOn,Success,
 09/08/2014 03:05 PM,Local,System,<SYSTEM>,PowerOff,Success,
+09/08/2014 05:53 PM,Local,System,<SYSTEM>,PowerOn,Success,
+09/08/2014 05:55 PM,Local,System,<SYSTEM>,PowerOn,Success,
+09/08/2014 06:05 PM,Local,System,<SYSTEM>,PowerOn,Success,
+09/08/2014 06:25 PM,Local,System,<SYSTEM>,PowerOn,Success,
+09/08/2014 06:27 PM,Local,System,<SYSTEM>,PowerOff,Success,

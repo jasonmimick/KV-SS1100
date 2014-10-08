@@ -1806,3 +1806,1362 @@ Real Hardware: No
 [09/08/14 15:05:34][UI] Show Dialog: Scanner Problem
 [09/08/14 15:05:40][UI] Hide Dialog: Scanner Problem
 [09/08/14 15:05:45][SHUTDOWN] Shutdown complete.
+[09/08/14 17:53:34]===============================================================
+[09/08/14 17:53:34][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/08/14 17:53:34][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/08/14 17:53:36][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/08/14 17:53:44][LOADING] Loading LoadConfig took 00:00:07.2484475
+[09/08/14 17:53:45][LOADING] Loading LoadRamDisk took 00:00:00.1011978
+[09/08/14 17:53:46][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/08/14 17:53:46]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/08/14 17:53:46][LOADING] Loading LoadNetworks took 00:00:01.6634498
+[09/08/14 17:53:46][LOADING] Loading LoadWebServer took 00:00:00.0752561
+[09/08/14 17:53:47][LOADING] Loading LoadHandlers took 00:00:00.3626868
+[09/08/14 17:53:47][LOADING] Loading LoadScanner took 00:00:00.0004991
+[09/08/14 17:53:47][PLUGINS] Loading Plugin: IHEPlugin
+[09/08/14 17:53:47][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/08/14 17:53:47][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/08/14 17:53:47][LOADING] Loading LoadPlugins took 00:00:00.1371355
+[09/08/14 17:53:47][LOADING] Loading LoadUIServices took 00:00:00.0006155
+[09/08/14 17:53:47][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/08/14 17:53:50][UI] Show Dialog: Notice
+[09/08/14 17:53:52][UI] Hide Dialog: Notice
+[09/08/14 17:54:02][UI] Show Dialog: Notice
+[09/08/14 17:54:03][UI] Hide Dialog: Notice
+[09/08/14 17:54:11][UI] Show Dialog: Progress Dialog
+[09/08/14 17:54:11][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/08/14 17:54:12][ICCT][SCAN] ExitInstance()
+[09/08/14 17:54:12][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/08/14 17:54:12][UI] Hide Dialog: Progress Dialog
+[09/08/14 17:55:39]===============================================================
+[09/08/14 17:55:39][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/08/14 17:55:39][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/08/14 17:55:39][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/08/14 17:55:46][LOADING] Loading LoadConfig took 00:00:06.7946992
+[09/08/14 17:55:46][LOADING] Loading LoadRamDisk took 00:00:00.0338956
+[09/08/14 17:55:47][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/08/14 17:55:47]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/08/14 17:55:47][LOADING] Loading LoadNetworks took 00:00:00.8998960
+[09/08/14 17:55:47][LOADING] Loading LoadWebServer took 00:00:00.0499477
+[09/08/14 17:55:47][LOADING] Loading LoadHandlers took 00:00:00.2342149
+[09/08/14 17:55:47][LOADING] Loading LoadScanner took 00:00:00.0005074
+[09/08/14 17:55:48][PLUGINS] Loading Plugin: IHEPlugin
+[09/08/14 17:55:48][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/08/14 17:55:48][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/08/14 17:55:48][LOADING] Loading LoadPlugins took 00:00:00.0997040
+[09/08/14 17:55:48][LOADING] Loading LoadUIServices took 00:00:00.0015561
+[09/08/14 17:55:48][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/08/14 17:55:51][UI] Show Dialog: Notice
+[09/08/14 17:55:52][UI] Hide Dialog: Notice
+[09/08/14 17:56:00][UI] Show Dialog: Notice
+[09/08/14 17:56:01][UI] Hide Dialog: Notice
+[09/08/14 17:56:05][UI] Show Dialog: Progress Dialog
+[09/08/14 17:56:05][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/08/14 17:56:06][ICCT][SCAN] ExitInstance()
+[09/08/14 17:56:06][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/08/14 18:05:33]===============================================================
+[09/08/14 18:05:33][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/08/14 18:05:33][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/08/14 18:05:34][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/08/14 18:05:41][LOADING] Loading LoadConfig took 00:00:07.1301392
+[09/08/14 18:05:41][LOADING] Loading LoadRamDisk took 00:00:00.0320659
+[09/08/14 18:05:42][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/08/14 18:05:42]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/08/14 18:05:42][LOADING] Loading LoadNetworks took 00:00:00.8625357
+[09/08/14 18:05:42][LOADING] Loading LoadWebServer took 00:00:00.0458143
+[09/08/14 18:05:42][LOADING] Loading LoadHandlers took 00:00:00.2288982
+[09/08/14 18:05:42][LOADING] Loading LoadScanner took 00:00:00.0006234
+[09/08/14 18:05:42][PLUGINS] Loading Plugin: IHEPlugin
+[09/08/14 18:05:42][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/08/14 18:05:42][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/08/14 18:05:42][LOADING] Loading LoadPlugins took 00:00:00.1161320
+[09/08/14 18:05:42][LOADING] Loading LoadUIServices took 00:00:00.0002457
+[09/08/14 18:05:42][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/08/14 18:06:15][UI] Show Dialog: Progress Dialog
+[09/08/14 18:06:15][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/08/14 18:06:15][ICCT][SCAN] ExitInstance()
+[09/08/14 18:06:15][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/08/14 18:06:18][UI] Hide Dialog: Progress Dialog
+[09/08/14 18:08:24]SS1100_SW.exe Information: 0 : [09/08/14 18:08:24]Loaded XDSCodeSet
+    [09/08/14 18:08:24]DateTime=2014-09-08T22:08:24.2490145Z
+[09/08/14 18:08:38][UI] Show Dialog: Notice
+[09/08/14 18:24:58]===============================================================
+[09/08/14 18:24:58][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/08/14 18:24:58][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/08/14 18:24:58][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/08/14 18:25:01][LOADING] Loading LoadConfig took 00:00:02.6570500
+[09/08/14 18:25:01][LOADING] Loading LoadRamDisk took 00:00:00.0296203
+[09/08/14 18:25:02][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/08/14 18:25:02]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/08/14 18:25:02][LOADING] Loading LoadNetworks took 00:00:01.0336734
+[09/08/14 18:25:02][LOADING] Loading LoadWebServer took 00:00:00.0469664
+[09/08/14 18:25:03][LOADING] Loading LoadHandlers took 00:00:00.2224771
+[09/08/14 18:25:03][LOADING] Loading LoadScanner took 00:00:00.0005687
+[09/08/14 18:25:03][PLUGINS] Loading Plugin: IHEPlugin
+[09/08/14 18:25:03][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/08/14 18:25:03][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/08/14 18:25:03][LOADING] Loading LoadPlugins took 00:00:00.1185194
+[09/08/14 18:25:03][LOADING] Loading LoadUIServices took 00:00:00.0002682
+[09/08/14 18:25:03][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/08/14 18:25:21][UI] Show Dialog: Progress Dialog
+[09/08/14 18:25:21][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/08/14 18:25:22][ICCT][SCAN] ExitInstance()
+[09/08/14 18:25:22][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/08/14 18:25:27][UI] Hide Dialog: Progress Dialog
+[09/08/14 18:25:43]SS1100_SW.exe Information: 0 : [09/08/14 18:25:43]Loaded XDSCodeSet
+    [09/08/14 18:25:43]DateTime=2014-09-08T22:25:43.1658958Z
+[09/08/14 18:26:14][UI] Show Dialog: Notice
+[09/08/14 18:26:14]SS1100_SW.exe Information: 0 : [09/08/14 18:26:14]XDSbRequest.Validate OK
+    [09/08/14 18:26:14]DateTime=2014-09-08T22:26:14.7580547Z
+[09/08/14 18:26:14]SS1100_SW.exe Information: 0 : [09/08/14 18:26:14]XDSbRequest.Validate request=patientId=LD572046,idSource=1.3.6.1.4.1.21367.2010.1.2.300.2.3,mimeType=application/pdf,creationDateTime=9/8/2014 6:25:43 PM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=1247592
+    [09/08/14 18:26:14]DateTime=2014-09-08T22:26:14.7620551Z
+[09/08/14 18:26:14]SS1100_SW.exe Information: 0 : [09/08/14 18:26:14]getProvideAndRegisterRequest called
+    [09/08/14 18:26:14]DateTime=2014-09-08T22:26:14.7670556Z
+[09/08/14 18:26:14]SS1100_SW.exe Information: 0 : [09/08/14 18:26:14]hash=b6aa4d1d06da282e002c4dcfd7516203652e0a4c
+    [09/08/14 18:26:14]DateTime=2014-09-08T22:26:14.7880577Z
+[09/08/14 18:26:14]SS1100_SW.exe Information: 0 : [09/08/14 18:26:14]slots done
+    [09/08/14 18:26:14]DateTime=2014-09-08T22:26:14.8030592Z
+[09/08/14 18:26:15]SS1100_SW.exe Information: 0 : [09/09/14 10:11:18]===============================================================
+[09/09/14 10:11:18][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 10:11:18][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 10:11:18][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 10:11:19][LOADING] Loading LoadConfig took 00:00:00.0212018
+[09/09/14 10:11:19][LOADING] Loading LoadRamDisk took 00:00:00.0285775
+[09/09/14 10:11:20][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 10:11:20]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 10:11:20][LOADING] Loading LoadNetworks took 00:00:01.2536240
+[09/09/14 10:11:20]System.Net.Sockets.SocketException (0x80004005): An attempt was made to access a socket in a way forbidden by its access permissions
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at HttpServer.HttpListenerBase.Start(Int32 backlog)
+   at HttpServer.HttpServer.Start(IPAddress address, Int32 port)
+   at TouchScan.RemoteConfig.WebServer.Start()
+   at TouchScan.AppLifecycle.LoadWebServer()
+   at TouchScan.AppLifecycle.LoadNext(LoadState state)
+   at TouchScan.AppLifecycle.DoLoading()
+   at TouchScan.UI.MainWindow.LoadingPage_LoadingTask()
+   at TouchScan.UI.LoadingPage.worker_DoWork(Object sender, DoWorkEventArgs e)
+[09/09/14 10:11:20][UI] Show Dialog: Initialization Problem
+[09/09/14 10:13:26]===============================================================
+[09/09/14 10:13:26][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 10:13:26][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 10:13:27][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 10:13:27][LOADING] Loading LoadConfig took 00:00:00.0213614
+[09/09/14 10:13:27][LOADING] Loading LoadRamDisk took 00:00:00.0309607
+[09/09/14 10:13:29][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 10:13:29]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 10:13:29][LOADING] Loading LoadNetworks took 00:00:01.2257134
+[09/09/14 10:13:29][LOADING] Loading LoadWebServer took 00:00:00.1065512
+[09/09/14 10:13:29][LOADING] Loading LoadHandlers took 00:00:00.2800616
+[09/09/14 10:13:29][LOADING] Loading LoadScanner took 00:00:00.0006005
+[09/09/14 10:13:29][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 10:13:29][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 10:13:29][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 10:13:29][LOADING] Loading LoadPlugins took 00:00:00.0950660
+[09/09/14 10:13:29][LOADING] Loading LoadUIServices took 00:00:00.0020578
+[09/09/14 10:13:29][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 10:13:47][UI] Show Dialog: Progress Dialog
+[09/09/14 10:13:47][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 10:13:48][ICCT][SCAN] ExitInstance()
+[09/09/14 10:13:48][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/09/14 10:13:48][UI] Hide Dialog: Progress Dialog
+[09/09/14 10:14:04]SS1100_SW.exe Information: 0 : [09/09/14 10:14:04]Loaded XDSCodeSet
+    [09/09/14 10:14:04]DateTime=2014-09-09T14:14:04.4546530Z
+[09/09/14 10:14:12][UI] Show Dialog: Notice
+[09/09/14 10:14:12]SS1100_SW.exe Information: 0 : [09/09/14 10:14:12]XDSbRequest.Validate OK
+    [09/09/14 10:14:12]DateTime=2014-09-09T14:14:12.1808803Z
+[09/09/14 10:14:12]SS1100_SW.exe Information: 0 : [09/09/14 10:14:12]XDSbRequest.Validate request=patientId=LD572046,idSource=1.3.6.1.4.1.21367.2010.1.2.300.2.3,mimeType=application/pdf,creationDateTime=9/9/2014 10:14:04 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=1247592
+    [09/09/14 10:14:12]DateTime=2014-09-09T14:14:12.1868797Z
+[09/09/14 10:14:12]SS1100_SW.exe Information: 0 : [09/09/14 10:14:12]getProvideAndRegisterRequest called
+    [09/09/14 10:14:12]DateTime=2014-09-09T14:14:12.1888795Z
+[09/09/14 10:14:12]SS1100_SW.exe Information: 0 : [09/09/14 10:14:12]hash=b6aa4d1d06da282e002c4dcfd7516203652e0a4c
+    [09/09/14 10:14:12]DateTime=2014-09-09T14:14:12.2108773Z
+[09/09/14 10:14:12]SS1100_SW.exe Information: 0 : [09/09/14 10:14:12]slots done
+    [09/09/14 10:14:12]DateTime=2014-09-09T14:14:12.2258758Z
+[09/09/14 10:14:12]SS1100_SW.exe Information: 0 : [09/09/14 10:42:42]===============================================================
+[09/09/14 10:42:42][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 10:42:42][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 10:42:43][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 10:42:43][LOADING] Loading LoadConfig took 00:00:00.0168995
+[09/09/14 10:42:43][LOADING] Loading LoadRamDisk took 00:00:00.0274089
+[09/09/14 10:42:44][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 10:42:44]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 10:42:44][LOADING] Loading LoadNetworks took 00:00:01.0339447
+[09/09/14 10:42:44][LOADING] Loading LoadWebServer took 00:00:00.0512346
+[09/09/14 10:42:45][LOADING] Loading LoadHandlers took 00:00:00.2774130
+[09/09/14 10:42:45][LOADING] Loading LoadScanner took 00:00:00.0005721
+[09/09/14 10:42:45][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 10:42:45][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 10:42:45][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 10:42:45][LOADING] Loading LoadPlugins took 00:00:00.0729659
+[09/09/14 10:42:45][LOADING] Loading LoadUIServices took 00:00:00.0007513
+[09/09/14 10:42:45][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 10:43:17][UI] Show Dialog: Progress Dialog
+[09/09/14 10:43:17][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 10:43:17][ICCT][SCAN] ExitInstance()
+[09/09/14 10:43:17][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/09/14 10:43:17][UI] Hide Dialog: Progress Dialog
+[09/09/14 10:43:32]SS1100_SW.exe Information: 0 : [09/09/14 10:43:32]Loaded XDSCodeSet
+    [09/09/14 10:43:32]DateTime=2014-09-09T14:43:32.7072917Z
+[09/09/14 10:43:38][UI] Show Dialog: Notice
+[09/09/14 10:43:38]SS1100_SW.exe Information: 0 : [09/09/14 10:43:38]XDSbRequest.Validate OK
+    [09/09/14 10:43:38]DateTime=2014-09-09T14:43:38.3269771Z
+[09/09/14 10:43:38]SS1100_SW.exe Information: 0 : [09/09/14 10:43:38]XDSbRequest.Validate request=patientId=LN572046,idSource=1.3.6.1.4.1.21367.2010.1.2.300.2.1,mimeType=application/pdf,creationDateTime=9/9/2014 10:43:32 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=1247592
+    [09/09/14 10:43:38]DateTime=2014-09-09T14:43:38.3289777Z
+[09/09/14 10:43:38]SS1100_SW.exe Information: 0 : [09/09/14 10:43:38]getProvideAndRegisterRequest called
+    [09/09/14 10:43:38]DateTime=2014-09-09T14:43:38.3309783Z
+[09/09/14 10:43:38]SS1100_SW.exe Information: 0 : [09/09/14 10:43:38]hash=b6aa4d1d06da282e002c4dcfd7516203652e0a4c
+    [09/09/14 10:43:38]DateTime=2014-09-09T14:43:38.3529849Z
+[09/09/14 10:43:38]SS1100_SW.exe Information: 0 : [09/09/14 10:43:38]slots done
+    [09/09/14 10:43:38]DateTime=2014-09-09T14:43:38.3709903Z
+[09/09/14 10:43:39]SS1100_SW.exe Information: 0 : [09/09/14 10:49:21]===============================================================
+[09/09/14 10:49:21][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 10:49:21][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 10:49:21][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 10:49:22][LOADING] Loading LoadConfig took 00:00:00.0151906
+[09/09/14 10:49:22][LOADING] Loading LoadRamDisk took 00:00:00.0441158
+[09/09/14 10:49:23][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 10:49:23]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 10:49:23][LOADING] Loading LoadNetworks took 00:00:01.2300507
+[09/09/14 10:49:23][LOADING] Loading LoadWebServer took 00:00:00.0813386
+[09/09/14 10:49:23][LOADING] Loading LoadHandlers took 00:00:00.2922425
+[09/09/14 10:49:23][LOADING] Loading LoadScanner took 00:00:00.0004417
+[09/09/14 10:49:23][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 10:49:23][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 10:49:23][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 10:49:23][LOADING] Loading LoadPlugins took 00:00:00.0669667
+[09/09/14 10:49:23][LOADING] Loading LoadUIServices took 00:00:00.0002399
+[09/09/14 10:49:23][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 10:49:44][UI] Show Dialog: Progress Dialog
+[09/09/14 10:49:44][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 10:49:45][ICCT][SCAN] ExitInstance()
+[09/09/14 10:49:45][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/09/14 10:49:45][UI] Hide Dialog: Progress Dialog
+[09/09/14 10:49:54]SS1100_SW.exe Information: 0 : [09/09/14 10:49:54]Loaded XDSCodeSet
+    [09/09/14 10:49:54]DateTime=2014-09-09T14:49:54.4831009Z
+[09/09/14 10:49:58][UI] Show Dialog: Notice
+[09/09/14 10:49:58]SS1100_SW.exe Information: 0 : [09/09/14 10:49:58]XDSbRequest.Validate OK
+    [09/09/14 10:49:58]DateTime=2014-09-09T14:49:58.6263435Z
+[09/09/14 10:49:58]SS1100_SW.exe Information: 0 : [09/09/14 10:49:58]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=application/pdf,creationDateTime=9/9/2014 10:49:54 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=1247592
+    [09/09/14 10:49:58]DateTime=2014-09-09T14:49:58.6293444Z
+[09/09/14 10:49:58]SS1100_SW.exe Information: 0 : [09/09/14 10:49:58]getProvideAndRegisterRequest called
+    [09/09/14 10:49:58]DateTime=2014-09-09T14:49:58.6313450Z
+[09/09/14 10:49:58]SS1100_SW.exe Information: 0 : [09/09/14 10:49:58]hash=b6aa4d1d06da282e002c4dcfd7516203652e0a4c
+    [09/09/14 10:49:58]DateTime=2014-09-09T14:49:58.6443489Z
+[09/09/14 10:49:58]SS1100_SW.exe Information: 0 : [09/09/14 10:49:58]slots done
+    [09/09/14 10:49:58]DateTime=2014-09-09T14:49:58.6663555Z
+[09/09/14 10:49:59]SS1100_SW.exe Information: 0 : [09/09/14 10:57:51]===============================================================
+[09/09/14 10:57:51][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 10:57:51][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 10:57:52][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 10:57:52][LOADING] Loading LoadConfig took 00:00:00.0249128
+[09/09/14 10:57:52][LOADING] Loading LoadRamDisk took 00:00:00.0264966
+[09/09/14 10:57:55][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 10:57:55]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 10:57:55][LOADING] Loading LoadNetworks took 00:00:03.6474813
+[09/09/14 10:57:56][LOADING] Loading LoadWebServer took 00:00:00.3447170
+[09/09/14 10:57:56][LOADING] Loading LoadHandlers took 00:00:00.3560494
+[09/09/14 10:57:56][LOADING] Loading LoadScanner took 00:00:00.0005897
+[09/09/14 10:57:56][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 10:57:56][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 10:57:57][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 10:57:57][LOADING] Loading LoadPlugins took 00:00:00.2773721
+[09/09/14 10:57:57][LOADING] Loading LoadUIServices took 00:00:00.0005305
+[09/09/14 10:57:57][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 10:58:14][UI] Show Dialog: Progress Dialog
+[09/09/14 10:58:14][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 10:58:14][ICCT][SCAN] ExitInstance()
+[09/09/14 10:58:14][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/09/14 10:58:14][UI] Hide Dialog: Progress Dialog
+[09/09/14 10:58:24]SS1100_SW.exe Information: 0 : [09/09/14 10:58:24]Loaded XDSCodeSet
+    [09/09/14 10:58:24]DateTime=2014-09-09T14:58:24.0349822Z
+[09/09/14 10:58:24][SCN] Scan Error: System.ArgumentNullException: Value cannot be null.
+Parameter name: dst
+   at System.Buffer.BlockCopy(Array src, Int32 srcOffset, Array dst, Int32 dstOffset, Int32 count)
+   at PluginExample.MyScanHandler.OnScanFinish(IScanner scanner, ScanFinishEventArgs args)
+   at TouchScan.UI.ScanningPage.OnScanFinish(IScanner scanner, ScanFinishEventArgs args)
+   at TouchScan.Scanner.Virtual.VirtualScanner.<>c__DisplayClass1.<StartScanningInternal>b__0()
+[09/09/14 10:58:24][UI] Show Dialog: Scanner Problem
+[09/09/14 10:58:26][UI] Hide Dialog: Scanner Problem
+[09/09/14 10:58:26]System.Windows.Navigation.ReturnEventArgs`1[Panasonic.KV_SS1100.API.UI.ScanOptionsPageResult][09/09/14 10:58:50]===============================================================
+[09/09/14 10:58:50][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 10:58:50][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 10:58:50][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 10:58:51][LOADING] Loading LoadConfig took 00:00:00.0188572
+[09/09/14 10:58:51][LOADING] Loading LoadRamDisk took 00:00:00.0365713
+[09/09/14 10:58:52][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 10:58:52]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 10:58:52][LOADING] Loading LoadNetworks took 00:00:00.9177004
+[09/09/14 10:58:52][LOADING] Loading LoadWebServer took 00:00:00.0731548
+[09/09/14 10:58:52][LOADING] Loading LoadHandlers took 00:00:00.4027322
+[09/09/14 10:58:52][LOADING] Loading LoadScanner took 00:00:00.0005677
+[09/09/14 10:58:52][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 10:58:52][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 10:58:52][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 10:58:52][LOADING] Loading LoadPlugins took 00:00:00.0760101
+[09/09/14 10:58:52][LOADING] Loading LoadUIServices took 00:00:00.0002820
+[09/09/14 10:58:52][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 10:59:10][UI] Show Dialog: Progress Dialog
+[09/09/14 10:59:10][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 10:59:10][ICCT][SCAN] ExitInstance()
+[09/09/14 10:59:10][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/09/14 10:59:10][UI] Hide Dialog: Progress Dialog
+[09/09/14 10:59:19]SS1100_SW.exe Information: 0 : [09/09/14 10:59:19]Loaded XDSCodeSet
+    [09/09/14 10:59:19]DateTime=2014-09-09T14:59:19.9147711Z
+[09/09/14 10:59:23]SS1100_SW.exe Information: 0 : [09/09/14 10:59:23]XDSbRequest.Validate OK
+    [09/09/14 10:59:23]DateTime=2014-09-09T14:59:23.0557131Z
+[09/09/14 10:59:23]SS1100_SW.exe Information: 0 : [09/09/14 10:59:23]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/9/2014 10:59:19 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/09/14 10:59:23]DateTime=2014-09-09T14:59:23.0677167Z
+[09/09/14 10:59:23]SS1100_SW.exe Information: 0 : [09/09/14 10:59:23]getProvideAndRegisterRequest called
+    [09/09/14 10:59:23]DateTime=2014-09-09T14:59:23.0697173Z
+[09/09/14 10:59:23]SS1100_SW.exe Information: 0 : [09/09/14 10:59:23]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/09/14 10:59:23]DateTime=2014-09-09T14:59:23.0867224Z
+[09/09/14 10:59:23]SS1100_SW.exe Information: 0 : [09/09/14 10:59:23]slots done
+    [09/09/14 10:59:23]DateTime=2014-09-09T14:59:23.0997263Z
+[09/09/14 10:59:23]SS1100_SW.exe Information: 0 : [09/09/14 22:48:21]===============================================================
+[09/09/14 22:48:21][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 22:48:21][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 22:48:22][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 22:48:22][LOADING] Loading LoadConfig took 00:00:00.0374540
+[09/09/14 22:48:22][LOADING] Loading LoadRamDisk took 00:00:00.0367157
+[09/09/14 22:48:24][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 22:48:24]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 22:48:24][LOADING] Loading LoadNetworks took 00:00:01.6639754
+[09/09/14 22:48:24][LOADING] Loading LoadWebServer took 00:00:00.1684700
+[09/09/14 22:48:24][LOADING] Loading LoadHandlers took 00:00:00.2932503
+[09/09/14 22:48:24][LOADING] Loading LoadScanner took 00:00:00.0007158
+[09/09/14 22:48:24][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 22:48:24][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 22:48:24][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 22:48:24][LOADING] Loading LoadPlugins took 00:00:00.1108045
+[09/09/14 22:48:24][LOADING] Loading LoadUIServices took 00:00:00.0033382
+[09/09/14 22:48:24][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 22:48:51][SHUTDOWN] Shutdown complete.
+[09/09/14 22:49:18]===============================================================
+[09/09/14 22:49:18][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 22:49:18][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 22:49:18][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 22:49:18][LOADING] Loading LoadConfig took 00:00:00.0183476
+[09/09/14 22:49:18][LOADING] Loading LoadRamDisk took 00:00:00.0329450
+[09/09/14 22:49:20][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 22:49:20]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 22:49:20][LOADING] Loading LoadNetworks took 00:00:01.8462691
+[09/09/14 22:49:20][LOADING] Loading LoadWebServer took 00:00:00.1016168
+[09/09/14 22:49:21][LOADING] Loading LoadHandlers took 00:00:00.4148838
+[09/09/14 22:49:21][LOADING] Loading LoadScanner took 00:00:00.0005605
+[09/09/14 22:49:21][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 22:49:21][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 22:49:21][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 22:49:21][LOADING] Loading LoadPlugins took 00:00:00.1656023
+[09/09/14 22:49:21][LOADING] Loading LoadUIServices took 00:00:00.0003332
+[09/09/14 22:49:21][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 22:49:31][SHUTDOWN] Shutdown complete.
+[09/09/14 22:49:58]===============================================================
+[09/09/14 22:49:58][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 22:49:58][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 22:50:06][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 22:50:08][LOADING] Loading LoadConfig took 00:00:00.0217565
+[09/09/14 22:50:09][LOADING] Loading LoadRamDisk took 00:00:00.1321084
+[09/09/14 22:50:13][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 22:50:13]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 22:50:13][LOADING] Loading LoadNetworks took 00:00:04.5548051
+[09/09/14 22:50:14][LOADING] Loading LoadWebServer took 00:00:00.3151933
+[09/09/14 22:50:14][LOADING] Loading LoadHandlers took 00:00:00.4655459
+[09/09/14 22:50:14][LOADING] Loading LoadScanner took 00:00:00.0005898
+[09/09/14 22:50:14][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 22:50:14][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 22:50:15][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 22:50:15][LOADING] Loading LoadPlugins took 00:00:00.3052392
+[09/09/14 22:50:15][LOADING] Loading LoadUIServices took 00:00:00.0004990
+[09/09/14 22:50:15][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 22:50:28][SHUTDOWN] Shutdown complete.
+[09/09/14 22:50:47]===============================================================
+[09/09/14 22:50:47][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 22:50:47][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 22:50:47][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 22:50:48][LOADING] Loading LoadConfig took 00:00:00.0248700
+[09/09/14 22:50:48][LOADING] Loading LoadRamDisk took 00:00:00.0463988
+[09/09/14 22:50:49][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 22:50:49]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 22:50:49][LOADING] Loading LoadNetworks took 00:00:01.6519822
+[09/09/14 22:50:49][LOADING] Loading LoadWebServer took 00:00:00.0723194
+[09/09/14 22:50:50][LOADING] Loading LoadHandlers took 00:00:00.4820358
+[09/09/14 22:50:50][LOADING] Loading LoadScanner took 00:00:00.0005205
+[09/09/14 22:50:50][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 22:50:50][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 22:50:50][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 22:50:50][LOADING] Loading LoadPlugins took 00:00:00.0627185
+[09/09/14 22:50:50][LOADING] Loading LoadUIServices took 00:00:00.0012182
+[09/09/14 22:50:50][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 22:51:09][UI] Show Dialog: Progress Dialog
+[09/09/14 22:51:09][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 22:51:22]===============================================================
+[09/09/14 22:51:22][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 22:51:22][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 22:51:23][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 22:51:23][LOADING] Loading LoadConfig took 00:00:00.0177078
+[09/09/14 22:51:23][LOADING] Loading LoadRamDisk took 00:00:00.0197658
+[09/09/14 22:51:24][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 22:51:24]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 22:51:24][LOADING] Loading LoadNetworks took 00:00:01.1745469
+[09/09/14 22:51:24][LOADING] Loading LoadWebServer took 00:00:00.0595793
+[09/09/14 22:51:25][LOADING] Loading LoadHandlers took 00:00:00.3743573
+[09/09/14 22:51:25][LOADING] Loading LoadScanner took 00:00:00.0007803
+[09/09/14 22:51:25][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 22:51:25][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 22:51:25][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 22:51:25][LOADING] Loading LoadPlugins took 00:00:00.1064659
+[09/09/14 22:51:25][LOADING] Loading LoadUIServices took 00:00:00.0016308
+[09/09/14 22:51:25][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 22:51:41][UI] Show Dialog: Progress Dialog
+[09/09/14 22:51:41][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 22:52:30]===============================================================
+[09/09/14 22:52:30][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 22:52:30][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 22:52:31][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 22:52:31][LOADING] Loading LoadConfig took 00:00:00.0177440
+[09/09/14 22:52:31][LOADING] Loading LoadRamDisk took 00:00:00.0293803
+[09/09/14 22:52:32][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 22:52:32]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 22:52:32][LOADING] Loading LoadNetworks took 00:00:01.3422646
+[09/09/14 22:52:32][LOADING] Loading LoadWebServer took 00:00:00.0953029
+[09/09/14 22:52:33][LOADING] Loading LoadHandlers took 00:00:00.2715030
+[09/09/14 22:52:33][LOADING] Loading LoadScanner took 00:00:00.0060333
+[09/09/14 22:52:33][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 22:52:33][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 22:52:33][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 22:52:33][LOADING] Loading LoadPlugins took 00:00:00.0741340
+[09/09/14 22:52:33][LOADING] Loading LoadUIServices took 00:00:00.0002443
+[09/09/14 22:52:33][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 22:52:45][UI] Show Dialog: Progress Dialog
+[09/09/14 22:52:46][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 22:53:39]===============================================================
+[09/09/14 22:53:39][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/09/14 22:53:39][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/09/14 22:53:40][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/09/14 22:53:40][LOADING] Loading LoadConfig took 00:00:00.0220022
+[09/09/14 22:53:40][LOADING] Loading LoadRamDisk took 00:00:00.0277968
+[09/09/14 22:53:42][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/09/14 22:53:42]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/09/14 22:53:42][LOADING] Loading LoadNetworks took 00:00:01.5960261
+[09/09/14 22:53:42][LOADING] Loading LoadWebServer took 00:00:00.0605554
+[09/09/14 22:53:42][LOADING] Loading LoadHandlers took 00:00:00.2851806
+[09/09/14 22:53:42][LOADING] Loading LoadScanner took 00:00:00.0005261
+[09/09/14 22:53:42][PLUGINS] Loading Plugin: IHEPlugin
+[09/09/14 22:53:42][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/09/14 22:53:42][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/09/14 22:53:42][LOADING] Loading LoadPlugins took 00:00:00.0717657
+[09/09/14 22:53:42][LOADING] Loading LoadUIServices took 00:00:00.0005046
+[09/09/14 22:53:42][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/09/14 22:54:27][UI] Show Dialog: Progress Dialog
+[09/09/14 22:54:27][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/09/14 22:54:28][ICCT][SCAN] ExitInstance()
+[09/09/14 22:54:28][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/09/14 22:54:28][UI] Hide Dialog: Progress Dialog
+[09/09/14 22:54:37]SS1100_SW.exe Information: 0 : [09/09/14 22:54:37]Loaded XDSCodeSet
+    [09/09/14 22:54:37]DateTime=2014-09-10T02:54:37.5566719Z
+[09/09/14 22:54:44]SS1100_SW.exe Information: 0 : [09/09/14 22:54:44]XDSbRequest.Validate OK
+    [09/09/14 22:54:44]DateTime=2014-09-10T02:54:44.2743436Z
+[09/09/14 22:54:44]SS1100_SW.exe Information: 0 : [09/09/14 22:54:44]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/9/2014 10:54:37 PM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/09/14 22:54:44]DateTime=2014-09-10T02:54:44.2953457Z
+[09/09/14 22:54:44]SS1100_SW.exe Information: 0 : [09/09/14 22:54:44]getProvideAndRegisterRequest called
+    [09/09/14 22:54:44]DateTime=2014-09-10T02:54:44.3013463Z
+[09/09/14 22:54:44]SS1100_SW.exe Information: 0 : [09/09/14 22:54:44]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/09/14 22:54:44]DateTime=2014-09-10T02:54:44.3173479Z
+[09/09/14 22:54:44]SS1100_SW.exe Information: 0 : [09/09/14 22:54:44]slots done
+    [09/09/14 22:54:44]DateTime=2014-09-10T02:54:44.3493511Z
+[09/09/14 22:54:44]SS1100_SW.exe Information: 0 : [09/10/14 15:32:25]===============================================================
+[09/10/14 15:32:25][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/10/14 15:32:25][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/10/14 15:32:26][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/10/14 15:32:26][LOADING] Loading LoadConfig took 00:00:00.0240191
+[09/10/14 15:32:27][LOADING] Loading LoadRamDisk took 00:00:00.0630340
+[09/10/14 15:32:28][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/10/14 15:32:28]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/10/14 15:32:28][LOADING] Loading LoadNetworks took 00:00:01.4384536
+[09/10/14 15:32:28][LOADING] Loading LoadWebServer took 00:00:00.0714698
+[09/10/14 15:32:28][LOADING] Loading LoadHandlers took 00:00:00.2831321
+[09/10/14 15:32:28][LOADING] Loading LoadScanner took 00:00:00.0005160
+[09/10/14 15:32:28][PLUGINS] Loading Plugin: IHEPlugin
+[09/10/14 15:32:28][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/10/14 15:32:29][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/10/14 15:32:29][LOADING] Loading LoadPlugins took 00:00:00.0792804
+[09/10/14 15:32:29][LOADING] Loading LoadUIServices took 00:00:00.0007799
+[09/10/14 15:32:29][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/10/14 15:34:49][UI] Show Dialog: Progress Dialog
+[09/10/14 15:34:49][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/10/14 15:34:50][ICCT][SCAN] ExitInstance()
+[09/10/14 15:34:50][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/10/14 15:34:50][UI] Hide Dialog: Progress Dialog
+[09/10/14 15:34:59]SS1100_SW.exe Information: 0 : [09/10/14 15:34:59]Loaded XDSCodeSet
+    [09/10/14 15:34:59]DateTime=2014-09-10T19:34:59.7863136Z
+[09/10/14 15:35:04]SS1100_SW.exe Information: 0 : [09/10/14 15:35:04]XDSbRequest.Validate OK
+    [09/10/14 15:35:04]DateTime=2014-09-10T19:35:04.6852932Z
+[09/10/14 15:35:04]SS1100_SW.exe Information: 0 : [09/10/14 15:35:04]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/10/2014 3:34:59 PM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/10/14 15:35:04]DateTime=2014-09-10T19:35:04.7082978Z
+[09/10/14 15:35:04]SS1100_SW.exe Information: 0 : [09/10/14 15:35:04]getProvideAndRegisterRequest called
+    [09/10/14 15:35:04]DateTime=2014-09-10T19:35:04.7112984Z
+[09/10/14 15:35:04]SS1100_SW.exe Information: 0 : [09/10/14 15:35:04]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/10/14 15:35:04]DateTime=2014-09-10T19:35:04.7283018Z
+[09/10/14 15:35:04]SS1100_SW.exe Information: 0 : [09/10/14 15:35:04]slots done
+    [09/10/14 15:35:04]DateTime=2014-09-10T19:35:04.7463054Z
+[09/10/14 15:35:05]SS1100_SW.exe Information: 0 : [09/12/14 08:15:31]===============================================================
+[09/12/14 08:15:31][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/12/14 08:15:31][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/12/14 08:15:31][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/12/14 08:15:32][LOADING] Loading LoadConfig took 00:00:00.0200960
+[09/12/14 08:15:32][LOADING] Loading LoadRamDisk took 00:00:00.0683849
+[09/12/14 08:15:33][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/12/14 08:15:33]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/12/14 08:15:33][LOADING] Loading LoadNetworks took 00:00:01.5533182
+[09/12/14 08:15:34][LOADING] Loading LoadWebServer took 00:00:00.0852271
+[09/12/14 08:15:34][LOADING] Loading LoadHandlers took 00:00:00.3040043
+[09/12/14 08:15:34][LOADING] Loading LoadScanner took 00:00:00.0005488
+[09/12/14 08:15:34][PLUGINS] Loading Plugin: IHEPlugin
+[09/12/14 08:15:34][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/12/14 08:15:34][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/12/14 08:15:34][LOADING] Loading LoadPlugins took 00:00:00.1871265
+[09/12/14 08:15:34][LOADING] Loading LoadUIServices took 00:00:00.0009673
+[09/12/14 08:15:34][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/12/14 08:16:14][UI] Show Dialog: Progress Dialog
+[09/12/14 08:16:14][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/12/14 08:16:14][ICCT][SCAN] ExitInstance()
+[09/12/14 08:16:14][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/12/14 08:16:14][UI] Hide Dialog: Progress Dialog
+[09/12/14 08:16:24]SS1100_SW.exe Information: 0 : [09/12/14 08:16:24]Loaded XDSCodeSet
+    [09/12/14 08:16:24]DateTime=2014-09-12T12:16:24.2151538Z
+[09/12/14 08:16:24]SS1100_SW.exe Information: 0 : [09/12/14 08:16:24]XDSbRequest.Validate OK
+    [09/12/14 08:16:24]DateTime=2014-09-12T12:16:24.4332192Z
+[09/12/14 08:16:24]SS1100_SW.exe Information: 0 : [09/12/14 08:16:24]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/12/2014 8:16:24 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/12/14 08:16:24]DateTime=2014-09-12T12:16:24.4502243Z
+[09/12/14 08:16:24]SS1100_SW.exe Information: 0 : [09/12/14 08:16:24]getProvideAndRegisterRequest called
+    [09/12/14 08:16:24]DateTime=2014-09-12T12:16:24.4562261Z
+[09/12/14 08:16:24]SS1100_SW.exe Information: 0 : [09/12/14 08:16:24]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/12/14 08:16:24]DateTime=2014-09-12T12:16:24.4662291Z
+[09/12/14 08:16:24]SS1100_SW.exe Information: 0 : [09/12/14 08:16:24]slots done
+    [09/12/14 08:16:24]DateTime=2014-09-12T12:16:24.4842345Z
+[09/12/14 08:16:24]SS1100_SW.exe Information: 0 : [09/12/14 08:23:51]===============================================================
+[09/12/14 08:23:51][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/12/14 08:23:51][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/12/14 08:23:52][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/12/14 08:23:52][LOADING] Loading LoadConfig took 00:00:00.0297393
+[09/12/14 08:23:53][LOADING] Loading LoadRamDisk took 00:00:00.2158034
+[09/12/14 08:23:54][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/12/14 08:23:54]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/12/14 08:23:54][LOADING] Loading LoadNetworks took 00:00:01.2738903
+[09/12/14 08:23:54][LOADING] Loading LoadWebServer took 00:00:00.0431755
+[09/12/14 08:23:54][LOADING] Loading LoadHandlers took 00:00:00.3643726
+[09/12/14 08:23:54][LOADING] Loading LoadScanner took 00:00:00.0005541
+[09/12/14 08:23:54][PLUGINS] Loading Plugin: IHEPlugin
+[09/12/14 08:23:54][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/12/14 08:23:54][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/12/14 08:23:54][LOADING] Loading LoadPlugins took 00:00:00.0297909
+[09/12/14 08:23:54][LOADING] Loading LoadUIServices took 00:00:00.0011467
+[09/12/14 08:23:54][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/12/14 08:24:10][UI] Show Dialog: Progress Dialog
+[09/12/14 08:24:10][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/12/14 08:24:10][ICCT][SCAN] ExitInstance()
+[09/12/14 08:24:10][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/12/14 08:24:10][UI] Hide Dialog: Progress Dialog
+[09/12/14 08:24:20]SS1100_SW.exe Information: 0 : [09/12/14 08:24:20]Loaded XDSCodeSet
+    [09/12/14 08:24:20]DateTime=2014-09-12T12:24:20.0866304Z
+[09/12/14 08:24:20]SS1100_SW.exe Information: 0 : [09/12/14 08:24:20]XDSbRequest.Validate OK
+    [09/12/14 08:24:20]DateTime=2014-09-12T12:24:20.1866404Z
+[09/12/14 08:24:20]SS1100_SW.exe Information: 0 : [09/12/14 08:24:20]XDSbRequest.Validate request=patientId=100000049,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/12/2014 8:24:20 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/12/14 08:24:20]DateTime=2014-09-12T12:24:20.1956413Z
+[09/12/14 08:24:20]SS1100_SW.exe Information: 0 : [09/12/14 08:24:20]getProvideAndRegisterRequest called
+    [09/12/14 08:24:20]DateTime=2014-09-12T12:24:20.1976415Z
+[09/12/14 08:24:20]SS1100_SW.exe Information: 0 : [09/12/14 08:24:20]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/12/14 08:24:20]DateTime=2014-09-12T12:24:20.2096427Z
+[09/12/14 08:24:20]SS1100_SW.exe Information: 0 : [09/12/14 08:24:20]slots done
+    [09/12/14 08:24:20]DateTime=2014-09-12T12:24:20.2336451Z
+[09/12/14 08:24:20]SS1100_SW.exe Information: 0 : [09/12/14 10:13:18]===============================================================
+[09/12/14 10:13:18][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/12/14 10:13:18][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/12/14 10:13:18][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/12/14 10:13:18][LOADING] Loading LoadConfig took 00:00:00.0397394
+[09/12/14 10:13:18][LOADING] Loading LoadRamDisk took 00:00:00.0433208
+[09/12/14 10:13:20][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/12/14 10:13:20]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/12/14 10:13:20][LOADING] Loading LoadNetworks took 00:00:01.3384747
+[09/12/14 10:13:20][LOADING] Loading LoadWebServer took 00:00:00.0485462
+[09/12/14 10:13:20][LOADING] Loading LoadHandlers took 00:00:00.2484303
+[09/12/14 10:13:20][LOADING] Loading LoadScanner took 00:00:00.0005709
+[09/12/14 10:13:20][PLUGINS] Loading Plugin: IHEPlugin
+[09/12/14 10:13:20][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/12/14 10:13:20][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/12/14 10:13:20][LOADING] Loading LoadPlugins took 00:00:00.0297516
+[09/12/14 10:13:20][LOADING] Loading LoadUIServices took 00:00:00.0003193
+[09/12/14 10:13:20][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/12/14 10:17:41][UI] Show Dialog: Progress Dialog
+[09/12/14 10:17:41][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/12/14 10:17:42][ICCT][SCAN] ExitInstance()
+[09/12/14 10:17:42][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/12/14 10:17:42][UI] Hide Dialog: Progress Dialog
+[09/12/14 10:17:51]SS1100_SW.exe Information: 0 : [09/12/14 10:17:51]Loaded XDSCodeSet
+    [09/12/14 10:17:51]DateTime=2014-09-12T14:17:51.9664651Z
+[09/12/14 10:17:52]SS1100_SW.exe Information: 0 : [09/12/14 10:17:52]XDSbRequest.Validate OK
+    [09/12/14 10:17:52]DateTime=2014-09-12T14:17:52.2334918Z
+[09/12/14 10:17:52]SS1100_SW.exe Information: 0 : [09/12/14 10:17:52]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/12/2014 10:17:51 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/12/14 10:17:52]DateTime=2014-09-12T14:17:52.2594944Z
+[09/12/14 10:17:52]SS1100_SW.exe Information: 0 : [09/12/14 10:17:52]getProvideAndRegisterRequest called
+    [09/12/14 10:17:52]DateTime=2014-09-12T14:17:52.2624947Z
+[09/12/14 10:17:52]SS1100_SW.exe Information: 0 : [09/12/14 10:17:52]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/12/14 10:17:52]DateTime=2014-09-12T14:17:52.2814966Z
+[09/12/14 10:17:52]SS1100_SW.exe Information: 0 : [09/12/14 10:17:52]slots done
+    [09/12/14 10:17:52]DateTime=2014-09-12T14:17:52.3034988Z
+[09/12/14 10:17:52]SS1100_SW.exe Information: 0 : [09/22/14 18:05:03]===============================================================
+[09/22/14 18:05:03][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/22/14 18:05:03][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/22/14 18:05:05][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/22/14 18:05:05][LOADING] Loading LoadConfig took 00:00:00.0219842
+[09/22/14 18:05:05][LOADING] Loading LoadRamDisk took 00:00:00.0450978
+[09/22/14 18:05:07][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/22/14 18:05:07]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/22/14 18:05:07][LOADING] Loading LoadNetworks took 00:00:01.9994943
+[09/22/14 18:05:08][LOADING] Loading LoadWebServer took 00:00:00.1305258
+[09/22/14 18:05:08][LOADING] Loading LoadHandlers took 00:00:00.2896812
+[09/22/14 18:05:08][LOADING] Loading LoadScanner took 00:00:00.0005001
+[09/22/14 18:05:08][PLUGINS] Loading Plugin: IHEPlugin
+[09/22/14 18:05:08][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/22/14 18:05:08][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/22/14 18:05:08][LOADING] Loading LoadPlugins took 00:00:00.0395674
+[09/22/14 18:05:08][LOADING] Loading LoadUIServices took 00:00:00.0005939
+[09/22/14 18:05:08][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/22/14 18:05:31][UI] Show Dialog: Progress Dialog
+[09/22/14 18:05:31][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/22/14 18:05:31][ICCT][SCAN] ExitInstance()
+[09/22/14 18:05:31][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/22/14 18:05:32][UI] Hide Dialog: Progress Dialog
+[09/22/14 18:05:42]SS1100_SW.exe Information: 0 : [09/22/14 18:05:42]Loaded XDSCodeSet
+    [09/22/14 18:05:42]DateTime=2014-09-22T22:05:42.4626721Z
+[09/22/14 18:05:42]SS1100_SW.exe Information: 0 : [09/22/14 18:05:42]XDSbRequest.Validate OK
+    [09/22/14 18:05:42]DateTime=2014-09-22T22:05:42.6938107Z
+[09/22/14 18:05:42]SS1100_SW.exe Information: 0 : [09/22/14 18:05:42]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/22/2014 6:05:42 PM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/22/14 18:05:42]DateTime=2014-09-22T22:05:42.7168245Z
+[09/22/14 18:05:42]SS1100_SW.exe Information: 0 : [09/22/14 18:05:42]getProvideAndRegisterRequest called
+    [09/22/14 18:05:42]DateTime=2014-09-22T22:05:42.7198263Z
+[09/22/14 18:05:42]SS1100_SW.exe Information: 0 : [09/22/14 18:05:42]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/22/14 18:05:42]DateTime=2014-09-22T22:05:42.7288317Z
+[09/22/14 18:05:42]SS1100_SW.exe Information: 0 : [09/22/14 18:05:42]slots done
+    [09/22/14 18:05:42]DateTime=2014-09-22T22:05:42.7468425Z
+[09/22/14 18:05:43]SS1100_SW.exe Information: 0 : [09/22/14 19:53:58]===============================================================
+[09/22/14 19:53:58][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/22/14 19:53:58][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/22/14 19:53:59][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/22/14 19:54:00][LOADING] Loading LoadConfig took 00:00:00.0420414
+[09/22/14 19:54:00][LOADING] Loading LoadRamDisk took 00:00:00.0270761
+[09/22/14 19:54:01][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/22/14 19:54:01]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/22/14 19:54:01][LOADING] Loading LoadNetworks took 00:00:01.2418028
+[09/22/14 19:54:01][LOADING] Loading LoadWebServer took 00:00:00.0913462
+[09/22/14 19:54:01][LOADING] Loading LoadHandlers took 00:00:00.3249859
+[09/22/14 19:54:01][LOADING] Loading LoadScanner took 00:00:00.0005685
+[09/22/14 19:54:01][PLUGINS] Loading Plugin: IHEPlugin
+[09/22/14 19:54:01][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/22/14 19:54:02][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/22/14 19:54:02][LOADING] Loading LoadPlugins took 00:00:00.0417871
+[09/22/14 19:54:02][LOADING] Loading LoadUIServices took 00:00:00.0005566
+[09/22/14 19:54:02][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/22/14 19:54:41][SHUTDOWN] Shutdown complete.
+[09/22/14 19:55:45]===============================================================
+[09/22/14 19:55:46][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/22/14 19:55:46][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/22/14 19:55:46][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/22/14 19:55:46][LOADING] Loading LoadConfig took 00:00:00.0252682
+[09/22/14 19:55:46][LOADING] Loading LoadRamDisk took 00:00:00.0325046
+[09/22/14 19:55:47][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/22/14 19:55:47]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/22/14 19:55:47][LOADING] Loading LoadNetworks took 00:00:01.1913068
+[09/22/14 19:55:47][LOADING] Loading LoadWebServer took 00:00:00.0724828
+[09/22/14 19:55:48][LOADING] Loading LoadHandlers took 00:00:00.2597186
+[09/22/14 19:55:48][LOADING] Loading LoadScanner took 00:00:00.0004669
+[09/22/14 19:55:48][PLUGINS] Loading Plugin: IHEPlugin
+[09/22/14 19:55:48][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/22/14 19:55:48][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/22/14 19:55:48][LOADING] Loading LoadPlugins took 00:00:00.0299643
+[09/22/14 19:55:48][LOADING] Loading LoadUIServices took 00:00:00.0013034
+[09/22/14 19:55:48][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/22/14 20:02:11][SHUTDOWN] Shutdown complete.
+[09/23/14 15:02:19]===============================================================
+[09/23/14 15:02:19][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/23/14 15:02:19][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/23/14 15:02:20][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/23/14 15:02:20][LOADING] Loading LoadConfig took 00:00:00.0564989
+[09/23/14 15:02:20][LOADING] Loading LoadRamDisk took 00:00:00.0554195
+[09/23/14 15:02:22][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/23/14 15:02:22]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/23/14 15:02:22][LOADING] Loading LoadNetworks took 00:00:01.6477234
+[09/23/14 15:02:22][LOADING] Loading LoadWebServer took 00:00:00.1843563
+[09/23/14 15:02:23][LOADING] Loading LoadHandlers took 00:00:00.3806504
+[09/23/14 15:02:23][LOADING] Loading LoadScanner took 00:00:00.0006267
+[09/23/14 15:02:23][PLUGINS] Loading Plugin: IHEPlugin
+[09/23/14 15:02:23][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/23/14 15:02:23][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/23/14 15:02:23][LOADING] Loading LoadPlugins took 00:00:00.0406759
+[09/23/14 15:02:23][LOADING] Loading LoadUIServices took 00:00:00.0006405
+[09/23/14 15:02:23][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/23/14 15:04:47][UI] Show Dialog: Progress Dialog
+[09/23/14 15:04:47][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/23/14 15:04:47][ICCT][SCAN] ExitInstance()
+[09/23/14 15:04:47][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/23/14 15:04:47][UI] Hide Dialog: Progress Dialog
+[09/23/14 15:04:57]SS1100_SW.exe Information: 0 : [09/23/14 15:04:57]Loaded XDSCodeSet
+    [09/23/14 15:04:57]DateTime=2014-09-23T19:04:57.3641254Z
+[09/23/14 15:04:57]SS1100_SW.exe Information: 0 : [09/23/14 15:04:57]XDSbRequest.Validate OK
+    [09/23/14 15:04:57]DateTime=2014-09-23T19:04:57.6081498Z
+[09/23/14 15:04:57]SS1100_SW.exe Information: 0 : [09/23/14 15:04:57]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/23/2014 3:04:57 PM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/23/14 15:04:57]DateTime=2014-09-23T19:04:57.6271517Z
+[09/23/14 15:04:57]SS1100_SW.exe Information: 0 : [09/23/14 15:04:57]getProvideAndRegisterRequest called
+    [09/23/14 15:04:57]DateTime=2014-09-23T19:04:57.6301520Z
+[09/23/14 15:04:57]SS1100_SW.exe Information: 0 : [09/23/14 15:04:57]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/23/14 15:04:57]DateTime=2014-09-23T19:04:57.6461536Z
+[09/23/14 15:04:57]SS1100_SW.exe Information: 0 : [09/23/14 15:04:57]slots done
+    [09/23/14 15:04:57]DateTime=2014-09-23T19:04:57.6641554Z
+[09/23/14 15:04:58]SS1100_SW.exe Information: 0 : [09/23/14 15:26:06]===============================================================
+[09/23/14 15:26:06][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/23/14 15:26:06][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/23/14 15:26:07][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/23/14 15:26:07][LOADING] Loading LoadConfig took 00:00:00.0465377
+[09/23/14 15:26:07][LOADING] Loading LoadRamDisk took 00:00:00.0413733
+[09/23/14 15:26:09][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/23/14 15:26:09]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/23/14 15:26:09][LOADING] Loading LoadNetworks took 00:00:01.8630110
+[09/23/14 15:26:09][LOADING] Loading LoadWebServer took 00:00:00.1071426
+[09/23/14 15:26:09][LOADING] Loading LoadHandlers took 00:00:00.2707948
+[09/23/14 15:26:09][LOADING] Loading LoadScanner took 00:00:00.0009807
+[09/23/14 15:26:09][PLUGINS] Loading Plugin: IHEPlugin
+[09/23/14 15:26:09][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/23/14 15:26:09][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/23/14 15:26:09][LOADING] Loading LoadPlugins took 00:00:00.0436150
+[09/23/14 15:26:09][LOADING] Loading LoadUIServices took 00:00:00.0006062
+[09/23/14 15:26:09][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/23/14 15:26:17][SHUTDOWN] Shutdown complete.
+[09/23/14 15:36:54]===============================================================
+[09/23/14 15:36:54][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/23/14 15:36:54][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/23/14 15:36:55][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/23/14 15:36:55][LOADING] Loading LoadConfig took 00:00:00.0153641
+[09/23/14 15:36:55][LOADING] Loading LoadRamDisk took 00:00:00.0261596
+[09/23/14 15:36:56][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/23/14 15:36:56]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/23/14 15:36:56][LOADING] Loading LoadNetworks took 00:00:00.8642142
+[09/23/14 15:36:56][LOADING] Loading LoadWebServer took 00:00:00.0717080
+[09/23/14 15:36:56][LOADING] Loading LoadHandlers took 00:00:00.2872227
+[09/23/14 15:36:56][LOADING] Loading LoadScanner took 00:00:00.0005594
+[09/23/14 15:36:56][PLUGINS] Loading Plugin: IHEPlugin
+[09/23/14 15:36:56][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/23/14 15:36:56][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/23/14 15:36:56][LOADING] Loading LoadPlugins took 00:00:00.0231720
+[09/23/14 15:36:56][LOADING] Loading LoadUIServices took 00:00:00.0002468
+[09/23/14 15:36:56][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/24/14 09:58:25][SHUTDOWN] Shutdown complete.
+[09/24/14 10:26:48]===============================================================
+[09/24/14 10:26:48][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/24/14 10:26:48][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/24/14 10:26:49][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/24/14 10:26:49][LOADING] Loading LoadConfig took 00:00:00.0405646
+[09/24/14 10:26:50][LOADING] Loading LoadRamDisk took 00:00:00.0380424
+[09/24/14 10:26:51][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/24/14 10:26:51]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/24/14 10:26:51][LOADING] Loading LoadNetworks took 00:00:01.4297297
+[09/24/14 10:26:51][LOADING] Loading LoadWebServer took 00:00:00.1243752
+[09/24/14 10:26:51][LOADING] Loading LoadHandlers took 00:00:00.3518202
+[09/24/14 10:26:51][LOADING] Loading LoadScanner took 00:00:00.0005453
+[09/24/14 10:26:51][PLUGINS] Loading Plugin: IHEPlugin
+[09/24/14 10:26:51][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/24/14 10:26:52][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/24/14 10:26:52][LOADING] Loading LoadPlugins took 00:00:00.0410290
+[09/24/14 10:26:52][LOADING] Loading LoadUIServices took 00:00:00.0010200
+[09/24/14 10:26:52][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/24/14 10:27:22][UI] Show Dialog: Progress Dialog
+[09/24/14 10:27:22][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/24/14 10:27:23][ICCT][SCAN] ExitInstance()
+[09/24/14 10:27:23][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/24/14 10:27:23][UI] Hide Dialog: Progress Dialog
+[09/24/14 10:27:32]SS1100_SW.exe Information: 0 : [09/24/14 10:27:32]Loaded XDSCodeSet
+    [09/24/14 10:27:32]DateTime=2014-09-24T14:27:32.7095090Z
+[09/24/14 10:27:32]SS1100_SW.exe Information: 0 : [09/24/14 10:27:32]XDSbRequest.Validate OK
+    [09/24/14 10:27:32]DateTime=2014-09-24T14:27:32.9245305Z
+[09/24/14 10:27:32]SS1100_SW.exe Information: 0 : [09/24/14 10:27:32]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/24/2014 10:27:32 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/24/14 10:27:32]DateTime=2014-09-24T14:27:32.9425323Z
+[09/24/14 10:27:32]SS1100_SW.exe Information: 0 : [09/24/14 10:27:32]getProvideAndRegisterRequest called
+    [09/24/14 10:27:32]DateTime=2014-09-24T14:27:32.9485329Z
+[09/24/14 10:27:32]SS1100_SW.exe Information: 0 : [09/24/14 10:27:32]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/24/14 10:27:32]DateTime=2014-09-24T14:27:32.9625343Z
+[09/24/14 10:27:32]SS1100_SW.exe Information: 0 : [09/24/14 10:27:32]slots done
+    [09/24/14 10:27:32]DateTime=2014-09-24T14:27:32.9805361Z
+[09/24/14 10:27:33]SS1100_SW.exe Information: 0 : [09/24/14 11:04:52]===============================================================
+[09/24/14 11:04:52][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/24/14 11:04:52][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/24/14 11:04:53][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/24/14 11:04:53][LOADING] Loading LoadConfig took 00:00:00.0268788
+[09/24/14 11:04:53][LOADING] Loading LoadRamDisk took 00:00:00.0352027
+[09/24/14 11:04:54][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/24/14 11:04:55]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/24/14 11:04:55][LOADING] Loading LoadNetworks took 00:00:01.4296145
+[09/24/14 11:04:55][LOADING] Loading LoadWebServer took 00:00:00.0617575
+[09/24/14 11:04:55][LOADING] Loading LoadHandlers took 00:00:00.2231710
+[09/24/14 11:04:55][LOADING] Loading LoadScanner took 00:00:00.0006037
+[09/24/14 11:04:55][PLUGINS] Loading Plugin: IHEPlugin
+[09/24/14 11:04:55][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/24/14 11:04:55][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/24/14 11:04:55][LOADING] Loading LoadPlugins took 00:00:00.0286529
+[09/24/14 11:04:55][LOADING] Loading LoadUIServices took 00:00:00.0034181
+[09/24/14 11:04:55][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/24/14 11:06:32][UI] Show Dialog: Progress Dialog
+[09/24/14 11:06:32][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/24/14 11:06:32][ICCT][SCAN] ExitInstance()
+[09/24/14 11:06:32][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/24/14 11:06:32][UI] Hide Dialog: Progress Dialog
+[09/24/14 11:06:42]SS1100_SW.exe Information: 0 : [09/24/14 11:06:42]Loaded XDSCodeSet
+    [09/24/14 11:06:42]DateTime=2014-09-24T15:06:42.2584404Z
+[09/24/14 11:06:42]SS1100_SW.exe Information: 0 : [09/24/14 11:06:42]XDSbRequest.Validate OK
+    [09/24/14 11:06:42]DateTime=2014-09-24T15:06:42.3554501Z
+[09/24/14 11:06:42]SS1100_SW.exe Information: 0 : [09/24/14 11:06:42]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/24/2014 11:06:42 AM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/24/14 11:06:42]DateTime=2014-09-24T15:06:42.3634509Z
+[09/24/14 11:06:42]SS1100_SW.exe Information: 0 : [09/24/14 11:06:42]getProvideAndRegisterRequest called
+    [09/24/14 11:06:42]DateTime=2014-09-24T15:06:42.3654511Z
+[09/24/14 11:06:42]SS1100_SW.exe Information: 0 : [09/24/14 11:06:42]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/24/14 11:06:42]DateTime=2014-09-24T15:06:42.3764522Z
+[09/24/14 11:06:42]SS1100_SW.exe Information: 0 : [09/24/14 11:06:42]slots done
+    [09/24/14 11:06:42]DateTime=2014-09-24T15:06:42.3914537Z
+[09/24/14 11:06:42]SS1100_SW.exe Information: 0 : [09/25/14 13:07:54]===============================================================
+[09/25/14 13:07:54][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/25/14 13:07:54][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/25/14 13:07:55][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/25/14 13:07:55][LOADING] Loading LoadConfig took 00:00:00.0228564
+[09/25/14 13:07:55][LOADING] Loading LoadRamDisk took 00:00:00.0296472
+[09/25/14 13:07:56][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/25/14 13:07:56]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/25/14 13:07:56][LOADING] Loading LoadNetworks took 00:00:01.2104342
+[09/25/14 13:07:56][LOADING] Loading LoadWebServer took 00:00:00.0622050
+[09/25/14 13:07:57][LOADING] Loading LoadHandlers took 00:00:00.2748631
+[09/25/14 13:07:57][LOADING] Loading LoadScanner took 00:00:00.0005127
+[09/25/14 13:07:57][PLUGINS] Loading Plugin: IHEPlugin
+[09/25/14 13:07:57][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/25/14 13:07:57][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/25/14 13:07:57][LOADING] Loading LoadPlugins took 00:00:00.0731537
+[09/25/14 13:07:57][LOADING] Loading LoadUIServices took 00:00:00.0007238
+[09/25/14 13:07:57][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:09:07]===============================================================
+[09/25/14 13:09:07][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/25/14 13:09:07][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/25/14 13:09:08][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/25/14 13:09:08][LOADING] Loading LoadConfig took 00:00:00.0215804
+[09/25/14 13:09:08][LOADING] Loading LoadRamDisk took 00:00:00.0466159
+[09/25/14 13:09:09][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/25/14 13:09:09]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/25/14 13:09:09][LOADING] Loading LoadNetworks took 00:00:01.2061047
+[09/25/14 13:09:09][LOADING] Loading LoadWebServer took 00:00:00.2678502
+[09/25/14 13:09:10][LOADING] Loading LoadHandlers took 00:00:00.2319587
+[09/25/14 13:09:10][LOADING] Loading LoadScanner took 00:00:00.0005417
+[09/25/14 13:09:10][PLUGINS] Loading Plugin: IHEPlugin
+[09/25/14 13:09:10][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/25/14 13:09:10][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/25/14 13:09:10][LOADING] Loading LoadPlugins took 00:00:00.0796629
+[09/25/14 13:09:10][LOADING] Loading LoadUIServices took 00:00:00.0002685
+[09/25/14 13:09:10][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:09:26][UI] Show Dialog: Notice
+[09/25/14 13:09:29][UI] Hide Dialog: Notice
+[09/25/14 13:09:42][SHUTDOWN] Shutdown complete.
+[09/25/14 13:09:45]===============================================================
+[09/25/14 13:09:45][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/25/14 13:09:45][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/25/14 13:09:45][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/25/14 13:09:45][LOADING] Loading LoadConfig took 00:00:00.0207426
+[09/25/14 13:09:45][LOADING] Loading LoadRamDisk took 00:00:00.0205807
+[09/25/14 13:09:47][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/25/14 13:09:47]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/25/14 13:09:47][LOADING] Loading LoadNetworks took 00:00:01.2272905
+[09/25/14 13:09:47][LOADING] Loading LoadWebServer took 00:00:00.1059194
+[09/25/14 13:09:47][LOADING] Loading LoadHandlers took 00:00:00.2591723
+[09/25/14 13:09:47][LOADING] Loading LoadScanner took 00:00:00.0006738
+[09/25/14 13:09:47][PLUGINS] Loading Plugin: IHEPlugin
+[09/25/14 13:09:47][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/25/14 13:09:47][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/25/14 13:09:47][LOADING] Loading LoadPlugins took 00:00:00.0856246
+[09/25/14 13:09:47][LOADING] Loading LoadUIServices took 00:00:00.0011872
+[09/25/14 13:09:47][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:09:54][SHUTDOWN] Shutdown complete.
+[09/25/14 13:09:58]===============================================================
+[09/25/14 13:09:58][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/25/14 13:09:58][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/25/14 13:09:59][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/25/14 13:09:59][LOADING] Loading LoadConfig took 00:00:00.0148272
+[09/25/14 13:09:59][LOADING] Loading LoadRamDisk took 00:00:00.0286168
+[09/25/14 13:10:01][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/25/14 13:10:01]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/25/14 13:10:01][LOADING] Loading LoadNetworks took 00:00:01.2590798
+[09/25/14 13:10:01][LOADING] Loading LoadWebServer took 00:00:00.0493122
+[09/25/14 13:10:01][LOADING] Loading LoadHandlers took 00:00:00.4379018
+[09/25/14 13:10:01][LOADING] Loading LoadScanner took 00:00:00.0014169
+[09/25/14 13:10:01][PLUGINS] Loading Plugin: IHEPlugin
+[09/25/14 13:10:01][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/25/14 13:10:01][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/25/14 13:10:01][LOADING] Loading LoadPlugins took 00:00:00.0816017
+[09/25/14 13:10:01][LOADING] Loading LoadUIServices took 00:00:00.0046669
+[09/25/14 13:10:01][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:10:03][UI] Show Dialog: Device Settings Login
+[09/25/14 13:10:08][ACCT] Logged in as 'admin' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:10:08][UI] Hide Dialog: Device Settings Login
+[09/25/14 13:10:18][UI] Show Dialog: Progress Dialog
+[09/25/14 13:10:18][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/25/14 13:10:19][ICCT][SCAN] ExitInstance()
+[09/25/14 13:10:19][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/25/14 13:10:19]OnScannerAvailable
+[09/25/14 13:10:19][UI] Hide Dialog: Progress Dialog
+[09/25/14 13:10:21][UI] Show Dialog: Warning
+[09/25/14 13:10:22][UI] Hide Dialog: Warning
+[09/25/14 13:10:43][UI] Show Dialog: Exit?
+[09/25/14 13:10:44][UI] Hide Dialog: Exit?
+[09/25/14 13:10:44][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:10:45][UI] Show Dialog: System Information
+[09/25/14 13:10:50][UI] Hide Dialog: System Information
+[09/25/14 13:10:51][UI] Show Dialog: Device Settings Login
+[09/25/14 13:10:53][UI] Hide Dialog: Device Settings Login
+[09/25/14 13:10:53][UI] Show Dialog: Device Settings Login
+[09/25/14 13:10:56][ACCT] Logged in as 'admin' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:10:56][UI] Hide Dialog: Device Settings Login
+[09/25/14 13:11:03][UI] Show Dialog: Exit?
+[09/25/14 13:11:04][UI] Hide Dialog: Exit?
+[09/25/14 13:11:04][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:11:05][UI] Show Dialog: System Information
+[09/25/14 13:15:22][UI] Hide Dialog: System Information
+[09/25/14 13:15:24][SHUTDOWN] Shutdown complete.
+[09/25/14 13:16:15]===============================================================
+[09/25/14 13:16:15][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/25/14 13:16:15][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/25/14 13:16:16][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/25/14 13:16:16][LOADING] Loading LoadConfig took 00:00:00.0244737
+[09/25/14 13:16:16][LOADING] Loading LoadRamDisk took 00:00:00.0346900
+[09/25/14 13:16:17][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/25/14 13:16:17]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/25/14 13:16:17][LOADING] Loading LoadNetworks took 00:00:01.0824903
+[09/25/14 13:16:17][LOADING] Loading LoadWebServer took 00:00:00.0613046
+[09/25/14 13:16:17][LOADING] Loading LoadHandlers took 00:00:00.2872221
+[09/25/14 13:16:17][LOADING] Loading LoadScanner took 00:00:00.0005615
+[09/25/14 13:16:17][PLUGINS] Loading Plugin: IHEPlugin
+[09/25/14 13:16:17][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/25/14 13:16:17][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/25/14 13:16:17][LOADING] Loading LoadPlugins took 00:00:00.0200488
+[09/25/14 13:16:17][LOADING] Loading LoadUIServices took 00:00:00.0002701
+[09/25/14 13:16:18][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 13:20:26]===============================================================
+[09/25/14 13:20:26][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/25/14 13:20:26][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/25/14 13:20:27][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/25/14 13:20:27][LOADING] Loading LoadConfig took 00:00:00.0166189
+[09/25/14 13:20:27][LOADING] Loading LoadRamDisk took 00:00:00.0304090
+[09/25/14 13:20:28][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/25/14 13:20:28]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/25/14 13:20:28][LOADING] Loading LoadNetworks took 00:00:01.1896417
+[09/25/14 13:20:28][LOADING] Loading LoadWebServer took 00:00:00.1259030
+[09/25/14 13:20:29][LOADING] Loading LoadHandlers took 00:00:00.2879471
+[09/25/14 13:20:29][LOADING] Loading LoadScanner took 00:00:00.0005306
+[09/25/14 13:20:29][PLUGINS] Loading Plugin: IHEPlugin
+[09/25/14 13:20:29][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/25/14 13:20:29][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/25/14 13:20:29][LOADING] Loading LoadPlugins took 00:00:00.0233578
+[09/25/14 13:20:29][LOADING] Loading LoadUIServices took 00:00:00.0006314
+[09/25/14 13:20:29][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/25/14 14:33:35][SHUTDOWN] Shutdown complete.
+[09/29/14 16:30:13]===============================================================
+[09/29/14 16:30:13][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/29/14 16:30:13][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/29/14 16:30:13][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/29/14 16:30:14][LOADING] Loading LoadConfig took 00:00:00.0278176
+[09/29/14 16:30:14][LOADING] Loading LoadRamDisk took 00:00:00.0369539
+[09/29/14 16:30:15][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/29/14 16:30:15]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/29/14 16:30:15][LOADING] Loading LoadNetworks took 00:00:01.2805848
+[09/29/14 16:30:15][LOADING] Loading LoadWebServer took 00:00:00.1188221
+[09/29/14 16:30:16][LOADING] Loading LoadHandlers took 00:00:00.2903896
+[09/29/14 16:30:16][LOADING] Loading LoadScanner took 00:00:00.0044725
+[09/29/14 16:30:16][PLUGINS] Loading Plugin: IHEPlugin
+[09/29/14 16:30:16][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/29/14 16:30:16][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/29/14 16:30:16][LOADING] Loading LoadPlugins took 00:00:00.0466681
+[09/29/14 16:30:16][LOADING] Loading LoadUIServices took 00:00:00.0005835
+[09/29/14 16:30:16][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/29/14 16:30:35][UI] Show Dialog: Notice
+[09/29/14 16:30:37][UI] Hide Dialog: Notice
+[09/29/14 16:31:00][UI] Show Dialog: Progress Dialog
+[09/29/14 16:31:00][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[09/29/14 16:31:01][ICCT][SCAN] ExitInstance()
+[09/29/14 16:31:01][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[09/29/14 16:31:01][UI] Hide Dialog: Progress Dialog
+[09/29/14 16:31:10]SS1100_SW.exe Information: 0 : [09/29/14 16:31:10]Loaded XDSCodeSet
+    [09/29/14 16:31:10]DateTime=2014-09-29T20:31:10.5034456Z
+[09/29/14 16:31:10]SS1100_SW.exe Information: 0 : [09/29/14 16:31:10]XDSbRequest.Validate OK
+    [09/29/14 16:31:10]DateTime=2014-09-29T20:31:10.7366087Z
+[09/29/14 16:31:10]SS1100_SW.exe Information: 0 : [09/29/14 16:31:10]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=9/29/2014 4:31:10 PM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [09/29/14 16:31:10]DateTime=2014-09-29T20:31:10.7566227Z
+[09/29/14 16:31:10]SS1100_SW.exe Information: 0 : [09/29/14 16:31:10]getProvideAndRegisterRequest called
+    [09/29/14 16:31:10]DateTime=2014-09-29T20:31:10.7586241Z
+[09/29/14 16:31:10]SS1100_SW.exe Information: 0 : [09/29/14 16:31:10]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [09/29/14 16:31:10]DateTime=2014-09-29T20:31:10.7696318Z
+[09/29/14 16:31:10]SS1100_SW.exe Information: 0 : [09/29/14 16:31:10]slots done
+    [09/29/14 16:31:10]DateTime=2014-09-29T20:31:10.7826409Z
+[09/29/14 16:31:11]SS1100_SW.exe Information: 0 : [09/29/14 16:34:11]===============================================================
+[09/29/14 16:34:11][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[09/29/14 16:34:11][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[09/29/14 16:34:12][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[09/29/14 16:34:12][LOADING] Loading LoadConfig took 00:00:00.0159889
+[09/29/14 16:34:12][LOADING] Loading LoadRamDisk took 00:00:00.0293796
+[09/29/14 16:34:13][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[09/29/14 16:34:13]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[09/29/14 16:34:13][LOADING] Loading LoadNetworks took 00:00:00.9966044
+[09/29/14 16:34:13][LOADING] Loading LoadWebServer took 00:00:00.0886738
+[09/29/14 16:34:13][LOADING] Loading LoadHandlers took 00:00:00.2752241
+[09/29/14 16:34:13][LOADING] Loading LoadScanner took 00:00:00.0004489
+[09/29/14 16:34:13][PLUGINS] Loading Plugin: IHEPlugin
+[09/29/14 16:34:13][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[09/29/14 16:34:13][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[09/29/14 16:34:13][LOADING] Loading LoadPlugins took 00:00:00.0185714
+[09/29/14 16:34:13][LOADING] Loading LoadUIServices took 00:00:00.0002891
+[09/29/14 16:34:13][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[09/29/14 16:38:37][SHUTDOWN] Shutdown complete.
+[10/01/14 12:02:50]===============================================================
+[10/01/14 12:02:50][INIT] Arguments: /loadplugin, IHEPlugin.dll
+[10/01/14 12:02:50][INIT] Installing plugin for debugging: Z:\jmimick\work\KV-SS1100\src\IHEPlugin\bin\x86\Debug\IHEPlugin.dll
+[10/01/14 12:02:50][VERSION]
+Product: Panasonic KV-SS1100
+Build: 1.1.1392.3 (05/09/2014)
+Configuration: PLUGINDEV
+Real Hardware: No
+
+[10/01/14 12:02:50][LOADING] Loading LoadConfig took 00:00:00.0267729
+[10/01/14 12:02:50][LOADING] Loading LoadRamDisk took 00:00:00.0363372
+[10/01/14 12:02:52][NET] Found Ethernet Device: Intel(R) PRO/1000 MT Network Connection
+[10/01/14 12:02:52]System.ComponentModel.Win32Exception (0x80004005): The service has not been started
+   at NativeWifi.Wlan.ThrowIfError(Int32 win32ErrorCode)
+   at NativeWifi.WlanClient..ctor()
+   at TouchScan.NetworkSetup.Wireless.WirelessUtil..cctor()
+[10/01/14 12:02:52][LOADING] Loading LoadNetworks took 00:00:01.3571534
+[10/01/14 12:02:52][LOADING] Loading LoadWebServer took 00:00:00.0922082
+[10/01/14 12:02:52][LOADING] Loading LoadHandlers took 00:00:00.2752140
+[10/01/14 12:02:52][LOADING] Loading LoadScanner took 00:00:00.0006546
+[10/01/14 12:02:52][PLUGINS] Loading Plugin: IHEPlugin
+[10/01/14 12:02:52][PLUGIN][WARNING] Accepting plugin without validation: IHEPlugin.dll
+[10/01/14 12:02:52][PLUGINS] Registering plugin object: PluginExample.Properties.MyPlugin
+[10/01/14 12:02:52][LOADING] Loading LoadPlugins took 00:00:00.0360881
+[10/01/14 12:02:52][LOADING] Loading LoadUIServices took 00:00:00.0011715
+[10/01/14 12:02:52][ACCT] Logged in as 'guest' through 'TouchScan.Standard_Handlers.Builtin.BuiltinAuthenticationHandler'
+[10/01/14 12:04:09][UI] Show Dialog: Notice
+[10/01/14 12:04:10][UI] Hide Dialog: Notice
+[10/01/14 12:04:50][UI] Show Dialog: Progress Dialog
+[10/01/14 12:04:50][ICCT][SCAN] InitInstance("TouchScan", NULL, 0)
+[10/01/14 12:04:51][ICCT][SCAN] ExitInstance()
+[10/01/14 12:04:51][ICCT][/ERROR] StartIfNeeded => There is no scanner connected. Please connect a scanner.
+[10/01/14 12:04:51][UI] Hide Dialog: Progress Dialog
+[10/01/14 12:05:01]SS1100_SW.exe Information: 0 : [10/01/14 12:05:01]Loaded XDSCodeSet
+    [10/01/14 12:05:01]DateTime=2014-10-01T16:05:01.0746749Z
+[10/01/14 12:05:01]SS1100_SW.exe Information: 0 : [10/01/14 12:05:01]XDSbRequest.Validate OK
+    [10/01/14 12:05:01]DateTime=2014-10-01T16:05:01.3117934Z
+[10/01/14 12:05:01]SS1100_SW.exe Information: 0 : [10/01/14 12:05:01]XDSbRequest.Validate request=patientId=100000001,idSource=1.3.6.1.4.1.21367.2010.1.2.300,mimeType=image/jpeg,creationDateTime=10/1/2014 12:05:01 PM,options={ language = EN, classCode = { code = 11488-4, display = Consultation Note, codingScheme = 2.16.840.1.113883.6.1 }, confidentialityCode = { code = N, display = Normal, codingScheme = 2.16.840.1.113883.5.25 }, formatCode = { code = ScanPDF/IHE 1.x, display = ScanPDF/IHE 1.x, codingScheme = Connect-a-thon formatCodes }, healthcareFacilityTypeCode = { code = COMM, display = Community Location, codingScheme = 2.16.840.1.113883.5.11 }, practiceSettingCode = { code = Multidisciplinary, display = Multidisciplinary, codingScheme = Connect-a-thon practiceSettingCodes }, typeCode = { code = 34133-9, display = Summarization of Episode Note, codingScheme = LOINC }, contentTypeCode = { code = Summarization of episode, display = Summarization of episode, codingScheme = Connect-a-thon contentTypeCodes } },data.length=425480
+    [10/01/14 12:05:01]DateTime=2014-10-01T16:05:01.3328039Z
+[10/01/14 12:05:01]SS1100_SW.exe Information: 0 : [10/01/14 12:05:01]getProvideAndRegisterRequest called
+    [10/01/14 12:05:01]DateTime=2014-10-01T16:05:01.3358054Z
+[10/01/14 12:05:01]SS1100_SW.exe Information: 0 : [10/01/14 12:05:01]hash=4b4ff90f8054b05afe2a9f771e431399c01c7db7
+    [10/01/14 12:05:01]DateTime=2014-10-01T16:05:01.3468109Z
+[10/01/14 12:05:01]SS1100_SW.exe Information: 0 : [10/01/14 12:05:01]slots done
+    [10/01/14 12:05:01]DateTime=2014-10-01T16:05:01.3628189Z
+[10/01/14 12:05:01]SS1100_SW.exe Information: 0 : 

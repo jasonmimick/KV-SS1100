@@ -28,10 +28,13 @@ namespace PluginExample
             InitializeComponent();
         }
 
-        public static object PatientContext = "FOOBAR";
+        public static object PatientContext = "No patient selected.";
 
         private void btnSelectPatient_Click(object sender, RoutedEventArgs e)
         {
+            var user = Panasonic.KV_SS1100.API.Account.AccountManager.LoggedInAccount;
+            UIManager.ShowMessageDialog(user.ToString(), MessageBoxImage.Asterisk, null);
+
             //UIManager.ShowMessageDialog(MyPage.PatientContext.ToString(), MessageBoxImage.Asterisk, null);
             var patientSearchPage = new IHEPlugin.PatientSearchPage();
             //UIManager.ShowDialog(patientSearchPage);

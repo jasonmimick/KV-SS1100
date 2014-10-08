@@ -28,28 +28,40 @@ namespace IHEPlugin
 
         private void btnSearchExchange_Click(object sender, RoutedEventArgs e)
         {
-            var msg = "txtLastName=" + this.txtLastName.Text + " txtFirstName=" + this.txtFirstName.Text;
-            //UIManager.ShowMessageDialog(msg, MessageBoxImage.Information,null);
-            var request = new PDQRequest();
-            request.FirstName = this.txtFirstName.Text;
-            request.LastName = this.txtLastName.Text;
-            IHEClientUtils.ConfigureRequest(request);
-            var client = new PDQClient();
-            client.ExchangeEndpoint = IHEClientUtils.PDQEndpoint();
-            //client.Verbose = true;
-            var results = client.SearchExchange(request);
-            msg = "";
-            foreach (var result in results)
+            var currentCursor = this.Cursor;
+            try
             {
-                msg += result.ToString();
+                this.Cursor = Cursors.Wait;
+                var msg = "txtLastName=" + this.txtLastName.Text + " txtFirstName=" + this.txtFirstName.Text;
+                //UIManager.ShowMessageDialog(msg, MessageBoxImage.Information,null);
+                var request = new PDQRequest();
+                request.FirstName = this.txtFirstName.Text;
+                request.LastName = this.txtLastName.Text;
+                IHEClientUtils.ConfigureRequest(request);
+                var client = new PDQClient();
+                client.ExchangeEndpoint = IHEClientUtils.PDQEndpoint();
+                //client.Verbose = true;
+                var results = client.SearchExchange(request);
+                msg = "";
+                foreach (var result in results)
+                {
+                    msg += result.ToString();
+                }
+
+                //UIManager.ShowMessageDialog(msg, MessageBoxImage.Hand, null);
+
+                var resultsPage = new PatientSearchResultsPage();
+                resultsPage.resultsDataGrid.ItemsSource = results;
+                UIManager.NavigationService.Navigate(resultsPage);
             }
-
-            //UIManager.ShowMessageDialog(msg, MessageBoxImage.Hand, null);
-
-            var resultsPage = new PatientSearchResultsPage();
-            resultsPage.resultsDataGrid.ItemsSource = results;
-            UIManager.NavigationService.Navigate(resultsPage);
-
+            catch (Exception exp)
+            {
+                UIManager.ShowMessageDialog(exp.Message, MessageBoxImage.Error, null);
+            }
+            finally
+            {
+                this.Cursor = currentCursor;
+            }
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)

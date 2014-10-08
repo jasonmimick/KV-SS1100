@@ -18,9 +18,9 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
-            <RowDefinition Height="45"/>
-            <RowDefinition Height="45"/>
-            <RowDefinition Height="45"/>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="65"/>
         </Grid.RowDefinitions>
     
         <Label Content="Current Patient:" Height="34" HorizontalAlignment="Left"
@@ -35,23 +35,24 @@
                HorizontalAlignment="Left"/>
     
         <Button Content="Select Patient" Height="40" Grid.Column="0" Grid.Row="1"
-                HorizontalAlignment="Left" 
-                Name="btnSelectPatient" VerticalAlignment="Top" Width="191" 
+                HorizontalAlignment="Center" Margin="2" Padding="1"
+                Name="btnSelectPatient" VerticalAlignment="Center"  Width="200"
                 IsDefault="False" Click="btnSelectPatient_Click" />
 
-        <Button Content="Start Scanning" Height="40" HorizontalAlignment="Left" 
-                Name="btnStartScan" VerticalAlignment="Top" 
-                Grid.Column="0" Grid.Row="2"
+        <Button Content="Start Scanning" Height="40" HorizontalAlignment="Center" 
+                Name="btnStartScan" VerticalAlignment="Center" 
+                Grid.Column="1" Grid.Row="1" 
                 Width="162" Click="btnStartScan_Click" />
 
+           <!--
         <Button Content="Send to Exchange" Height="40" HorizontalAlignment="Left" 
                 Name="btnSendToHIE" VerticalAlignment="Top" 
                 Grid.Column="1" Grid.Row="2"
                 Width="162" Click="btnStartScan_Click" />
-
-        <Button Content="Back to menu" Height="40" HorizontalAlignment="Left" 
-                Name="btnBack" VerticalAlignment="Bottom" Width="191" 
-                Grid.Column="0" Grid.Row="3"
+            -->
+        <Button Content="Back to menu" Height="40" HorizontalAlignment="Center" 
+                Name="btnBack" VerticalAlignment="Center" Width="191" 
+                Grid.Column="0" Grid.Row="2"
                 IsCancel="True" Click="btnBack_Click" />
       
         <!--

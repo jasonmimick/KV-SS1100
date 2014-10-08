@@ -29,6 +29,8 @@ namespace PluginExample
         private void btnAppBtn_Click(object sender, RoutedEventArgs e)
         {
             UIManager.NavigationService.Navigate(new MyPage());
+            //UIManager.NavigationService.Navigate(new IHEPlugin.MainPage());
+
         }
     }
 

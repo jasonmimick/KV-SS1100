@@ -20,10 +20,12 @@
 
         </Grid.RowDefinitions>
 
-        <Label Content="Last Name:" Grid.Column="0" Grid.Row="0"/>
-        <TextBox Grid.Column="1" Grid.Row="0" Name="txtLastName" />
-        <Label Content="First Name:" Grid.Column="0" Grid.Row="1" />
-        <TextBox Grid.Column="1" Grid.Row="1" Name="txtFirstName" />
+        <Label Content="Last Name:" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center"/>
+        <TextBox Grid.Column="1" Grid.Row="0" Name="txtLastName" 
+                 VerticalAlignment="Center" Height="30"/>
+        <Label Content="First Name:" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center"/>
+        <TextBox Grid.Column="1" Grid.Row="1" Name="txtFirstName"
+                   VerticalAlignment="Center" Height="30"/>
 
         <Button Content="Search Exchange" Grid.Column="0" Grid.Row="2" 
                 Margin="20"
