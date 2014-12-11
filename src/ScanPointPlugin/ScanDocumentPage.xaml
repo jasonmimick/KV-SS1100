@@ -1,0 +1,106 @@
+﻿<Page x:Class="HealthSharePlugin.ScanDocumentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+          xmlns:foo="clr-namespace:PluginExample"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="ScanDocumentPage"
+      Loaded="Page_Loaded"
+      >
+
+    <StackPanel  Orientation="Vertical" HorizontalAlignment="Stretch">
+
+        <Border BorderBrush="Gray" BorderThickness="0 0 0 2">
+            <Grid HorizontalAlignment="Stretch" >
+                <Button Name="btCancel" Click="btCancel_Click"  DockPanel.Dock="Left" Margin="10">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Label Content="Cancel" FontSize="24"   Foreground="Blue"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Label Content="HealthShare - Scan Document" VerticalAlignment="Center" HorizontalAlignment="Center"
+                   HorizontalContentAlignment="Center" FontWeight="Medium"
+                   FontSize="20"/>
+             
+                <Button Name="btnDone" Click="btnDone_Click"  DockPanel.Dock="Right" 
+                    HorizontalContentAlignment="Right" HorizontalAlignment="Right"
+                    Margin="10">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Label Content="Done" FontSize="24" Foreground="Blue"
+                               FontWeight="SemiBold"/>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+            </Grid>
+        </Border>
+
+        <Border BorderBrush="gray" BorderThickness="0 0 0 2">
+            <DockPanel>
+                <Label Name="lblSelectPatient" DockPanel.Dock="Left"
+                                   Content="Selected Patient" FontSize="18" />
+                <TextBlock Name="tbSelectPatient" 
+                                       FontSize="16"
+                                       Margin="10,0,0,0"
+                                       FontWeight="Light"
+                                       Foreground="Black"
+                                       VerticalAlignment="Center"
+                                       Text="{Binding Source={x:Static foo:MyPage.PatientContext},Mode=OneWay}"
+                                       />
+             
+                <Image/>
+            </DockPanel>
+        </Border>
+
+
+        <Border BorderBrush="Gray" BorderThickness="0 0 0 2" Name="docNameBorder">
+                <Button Name="btnDocName" 
+                    Margin="0">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Label Content="Document Name " 
+                                   VerticalAlignment="Center"
+                                    HorizontalContentAlignment="Left" HorizontalAlignment="Left"
+                                   FontSize="18" />
+                            <TextBox Name="txtDocName" FontSize="18" FontWeight="Medium"
+                                     BorderBrush="Transparent" BorderThickness=".5"
+                                     Width="300" VerticalAlignment="Center" 
+                                 
+                                       HorizontalContentAlignment="Left" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ControlTemplate>
+                    </Button.Template>
+                </Button>
+        </Border>
+
+        <Border BorderBrush="gray" BorderThickness="0 0 0 2">
+            <DockPanel>
+                <Label  DockPanel.Dock="Left"
+                                   Content="Document Type" FontSize="18" />
+                <ComboBox Name="DocTypeCombo" FontSize="18"/>
+            </DockPanel>
+        </Border>
+       
+        <Button Name="btnScanDocument" Click="btnScanDocument_Click">
+                <Button.Template>       
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Label Content="Scan Document" 
+                                   VerticalAlignment="Center"
+                                    HorizontalContentAlignment="Center" HorizontalAlignment="Center"
+                                   FontSize="24" Foreground="Red"
+                               FontWeight="Bold"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+<!--
+        </Border>
+  -->
+        </StackPanel>
+</Page>

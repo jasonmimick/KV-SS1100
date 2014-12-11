@@ -1,0 +1,78 @@
+﻿<Page x:Class="PluginExample.MyPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:foo="clr-namespace:PluginExample"
+      mc:Ignorable="d" 
+      d:DesignWidth="465"
+      d:DesignHeight="272"
+	  Title="MyPage" Name="MyMainPage">
+    <Page.Resources>
+        <ResourceDictionary Source="/SS1100_SW;component/UI/Style.xaml"/>
+    </Page.Resources>
+    
+    <GroupBox>
+        <GroupBox.Header>
+            <Label FontWeight="Bold">Scan to InterSystems HealthShare</Label>
+        </GroupBox.Header>
+   
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+    
+        <Label Content="Current Patient:" Height="34" HorizontalAlignment="center"
+               Grid.Column="0" Grid.Row="0"
+               Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" />
+      
+        <TextBlock Name="patientContextLabel" Text="{Binding Source={x:Static foo:MyPage.PatientContext}, Mode=OneTime}"
+               Margin="10" Grid.Column="1" Grid.Row="0" TextWrapping="Wrap"
+               HorizontalAlignment="Left"/>
+
+        <StackPanel Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="1">
+                <Button Name="btnNewUI" Click="btnNewUI_Click" Content="New UI"/>
+                <Label Content="Document Name:"  HorizontalAlignment="Left"
+               VerticalAlignment="Bottom"/>
+        <TextBox Name="txtDocumentName" Margin="10"
+                Text="{Binding Source={x:Static foo:MyPage.DocumentName}, Mode=OneTime}"/>
+            </StackPanel>
+        
+        
+        <Button Content="Select Patient" Height="40" Grid.Column="0" Grid.Row="2"
+                HorizontalAlignment="Center" Margin="2" Padding="1"
+                Name="btnSelectPatient" VerticalAlignment="Center"  Width="200"
+                IsDefault="False" Click="btnSelectPatient_Click" />
+
+        <Button Content="Start Scanning" Height="40" HorizontalAlignment="Center" 
+                Name="btnStartScan" VerticalAlignment="Center" 
+                Grid.Column="1" Grid.Row="2" 
+                Width="162" Click="btnStartScan_Click" />
+
+           <!--
+        <Button Content="Send to Exchange" Height="40" HorizontalAlignment="Left" 
+                Name="btnSendToHIE" VerticalAlignment="Top" 
+                Grid.Column="1" Grid.Row="2"
+                Width="162" Click="btnStartScan_Click" />
+            -->
+        <Button Content="Back to menu" Height="40" HorizontalAlignment="Center" 
+                Name="btnBack" VerticalAlignment="Center" Width="191" 
+                Grid.Column="0" Grid.Row="3"
+                IsCancel="True" Click="btnBack_Click" />
+      
+        <!--
+        <CheckBox Content="Drop out red color" Height="24" HorizontalAlignment="Left" Margin="12,52,0,0" Name="chkDropOut" VerticalAlignment="Top" Width="191" />
+        <CheckBox Content="Smooth Background" Height="24" HorizontalAlignment="Left" Margin="12,82,0,0" Name="chkSmoothBg" VerticalAlignment="Top" Width="191" />
+        <CheckBox Content="Dynamic Threshold" Height="24" HorizontalAlignment="Left" Margin="262,52,0,0" Name="chkDynThresh" VerticalAlignment="Top" Width="191" />
+        -->
+        </Grid>
+
+    </GroupBox>
+</Page>
